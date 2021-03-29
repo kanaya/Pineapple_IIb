@@ -25975,8 +25975,8 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <part name="J0" library="con-jack" library_urn="urn:adsk.eagle:library:154" deviceset="JACK-PLUG" device="0" package3d_urn="urn:adsk.eagle:package:7492/1"/>
 <part name="R3" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="0204/5" package3d_urn="urn:adsk.eagle:package:23488/1" value="1k"/>
 <part name="R4" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="0204/5" package3d_urn="urn:adsk.eagle:package:23488/1" value="1k"/>
-<part name="JP3" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
-<part name="JP5" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
+<part name="JP6" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2" value="LED"/>
+<part name="JP5" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2" value="PWR"/>
 </parts>
 <sheets>
 <sheet>
@@ -26475,7 +26475,7 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <attribute name="NAME" x="93.98" y="40.64" size="1.778" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="93.98" y="35.56" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="JP3" gate="A" x="71.12" y="35.56" smashed="yes" rot="MR0">
+<instance part="JP6" gate="A" x="71.12" y="35.56" smashed="yes" rot="MR0">
 <attribute name="NAME" x="77.47" y="41.275" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="77.47" y="27.94" size="1.778" layer="96" rot="MR0"/>
 </instance>
@@ -26634,7 +26634,7 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <segment>
 <label x="101.6" y="35.56" size="0.8128" layer="95" xref="yes"/>
 <wire x1="73.66" y1="35.56" x2="101.6" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="JP3" gate="A" pin="2"/>
+<pinref part="JP6" gate="A" pin="2"/>
 </segment>
 <segment>
 <pinref part="RN2" gate="1" pin="1"/>
@@ -27363,7 +27363,7 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <wire x1="88.9" y1="38.1" x2="73.66" y2="38.1" width="0.1524" layer="91"/>
 <label x="81.28" y="38.1" size="1.778" layer="95"/>
 <pinref part="R4" gate="G$1" pin="1"/>
-<pinref part="JP3" gate="A" pin="1"/>
+<pinref part="JP6" gate="A" pin="1"/>
 </segment>
 </net>
 <net name="MISND" class="0">
@@ -27545,7 +27545,7 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <wire x1="88.9" y1="33.02" x2="73.66" y2="33.02" width="0.1524" layer="91"/>
 <label x="81.28" y="33.02" size="1.778" layer="95"/>
 <pinref part="R3" gate="G$1" pin="1"/>
-<pinref part="JP3" gate="A" pin="3"/>
+<pinref part="JP6" gate="A" pin="3"/>
 </segment>
 </net>
 <net name="ANLG1R" class="0">
