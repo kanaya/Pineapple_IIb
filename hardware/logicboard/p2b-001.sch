@@ -27195,13 +27195,6 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <pinref part="R4" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="MRX+" class="0">
-<segment>
-<pinref part="SV2" gate="-6" pin="S"/>
-<wire x1="312.42" y1="139.7" x2="309.88" y2="139.7" width="0.1524" layer="91"/>
-<label x="309.88" y="139.7" size="0.8128" layer="95" rot="MR0" xref="yes"/>
-</segment>
-</net>
 <net name="MRX-" class="0">
 <segment>
 <pinref part="SV2" gate="-8" pin="S"/>
@@ -27211,9 +27204,9 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 </net>
 <net name="MRXDTCT" class="0">
 <segment>
-<pinref part="SV2" gate="-7" pin="S"/>
-<wire x1="312.42" y1="137.16" x2="309.88" y2="137.16" width="0.1524" layer="91"/>
-<label x="309.88" y="137.16" size="0.8128" layer="95" rot="MR0" xref="yes"/>
+<pinref part="SV2" gate="-6" pin="S"/>
+<wire x1="312.42" y1="139.7" x2="309.88" y2="139.7" width="0.1524" layer="91"/>
+<label x="309.88" y="139.7" size="0.8128" layer="95" rot="MR0" xref="yes"/>
 </segment>
 </net>
 <net name="D7" class="0">
@@ -27698,6 +27691,13 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <pinref part="IC1" gate="F" pin="O"/>
 <pinref part="RN3" gate="H" pin="1"/>
 <wire x1="185.42" y1="25.4" x2="195.58" y2="25.4" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="MRX+" class="0">
+<segment>
+<pinref part="SV2" gate="-7" pin="S"/>
+<wire x1="312.42" y1="137.16" x2="309.88" y2="137.16" width="0.1524" layer="91"/>
+<label x="309.88" y="137.16" size="0.8128" layer="95" rot="MR0" xref="yes"/>
 </segment>
 </net>
 </nets>
