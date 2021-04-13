@@ -8,8 +8,8 @@
 </settings>
 <grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="2" display="yes" altdistance="50" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -5361,7 +5361,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="44" y="36" size="1" layer="25" ratio="10" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="50.1336" y="38.3114" size="0.9906" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C025-024X044" package3d_urn="urn:adsk.eagle:package:23630/1" value="100n" x="42" y="40" smashed="yes">
+<element name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C025-024X044" package3d_urn="urn:adsk.eagle:package:23630/1" value="100n" x="42" y="40" smashed="yes">
 <attribute name="NAME" x="42" y="38" size="1" layer="25" ratio="10" rot="R180" align="center"/>
 <attribute name="POPULARITY" value="56" x="42" y="40" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="42" y="40" size="1.778" layer="27" display="off"/>
@@ -5512,11 +5512,11 @@ design rules under a new name.</description>
 <attribute name="NAME" x="31.5" y="38" size="1" layer="25" ratio="10" align="center"/>
 <attribute name="VALUE" x="29.722" y="37.333" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="C9" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C025-024X044" package3d_urn="urn:adsk.eagle:package:23630/1" value="10n" x="73" y="70" smashed="yes" rot="R90">
+<element name="C8" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C025-024X044" package3d_urn="urn:adsk.eagle:package:23630/1" value="10n" x="73" y="70" smashed="yes" rot="R90">
 <attribute name="NAME" x="73" y="67" size="1" layer="25" ratio="10" align="center"/>
 <attribute name="VALUE" x="75.667" y="68.222" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="C10" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C025-024X044" package3d_urn="urn:adsk.eagle:package:23630/1" value="100n" x="76.5" y="70" smashed="yes" rot="R90">
+<element name="C9" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C025-024X044" package3d_urn="urn:adsk.eagle:package:23630/1" value="100n" x="76.5" y="70" smashed="yes" rot="R90">
 <attribute name="NAME" x="76.5" y="67" size="1" layer="25" ratio="10" align="center"/>
 <attribute name="VALUE" x="79.167" y="68.222" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
@@ -5530,7 +5530,7 @@ design rules under a new name.</description>
 <contactref element="U1" pad="1"/>
 <contactref element="C6" pad="2"/>
 <contactref element="C7" pad="2"/>
-<contactref element="C8" pad="2"/>
+<contactref element="C10" pad="2"/>
 <contactref element="MC1" pad="P$21"/>
 <contactref element="MC1" pad="P$12"/>
 <contactref element="J2" pad="1"/>
@@ -5557,15 +5557,15 @@ design rules under a new name.</description>
 <contactref element="SV2" pad="13"/>
 <contactref element="SV2" pad="16"/>
 <contactref element="JP6" pad="2"/>
-<contactref element="JP5" pad="1"/>
 <contactref element="J0" pad="2"/>
 <contactref element="J0" pad="1"/>
 <contactref element="J8" pad="2"/>
 <contactref element="J9" pad="2"/>
 <contactref element="JP7" pad="1"/>
 <contactref element="C5" pad="2"/>
+<contactref element="C8" pad="2"/>
 <contactref element="C9" pad="2"/>
-<contactref element="C10" pad="2"/>
+<contactref element="JP5" pad="1"/>
 <wire x1="64.77" y1="30.1752" x2="63.627" y2="30.1752" width="0.6096" layer="1"/>
 <wire x1="63.627" y1="30.1752" x2="62.3316" y2="30.1752" width="0.6096" layer="1"/>
 <wire x1="62.3316" y1="30.1752" x2="62.27" y2="30.19" width="0.6096" layer="1"/>
@@ -5790,10 +5790,10 @@ design rules under a new name.</description>
 <contactref element="RN3" pad="1"/>
 <contactref element="OK1" pad="8"/>
 <contactref element="SV2" pad="12"/>
-<contactref element="JP5" pad="2"/>
 <contactref element="C5" pad="1"/>
+<contactref element="C8" pad="1"/>
 <contactref element="C9" pad="1"/>
-<contactref element="C10" pad="1"/>
+<contactref element="JP5" pad="2"/>
 <wire x1="15.4686" y1="61.6458" x2="15.4686" y2="68.961" width="0.6096" layer="1"/>
 <wire x1="23.7744" y1="53.34" x2="15.4686" y2="61.6458" width="0.6096" layer="1"/>
 <wire x1="15.4686" y1="68.961" x2="15.42" y2="69" width="0.6096" layer="1"/>
@@ -6158,7 +6158,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="AREF">
 <contactref element="R3" pad="1"/>
-<contactref element="C8" pad="1"/>
+<contactref element="C10" pad="1"/>
 <contactref element="MC1" pad="P$32"/>
 <wire x1="46.7106" y1="36.0426" x2="50.5206" y2="36.0426" width="0.1524" layer="16"/>
 <wire x1="43.9674" y1="38.7858" x2="46.7106" y2="36.0426" width="0.1524" layer="16"/>
@@ -7018,8 +7018,8 @@ design rules under a new name.</description>
 <contactref element="JP1" pad="1"/>
 <contactref element="SV2" pad="2"/>
 <contactref element="V+" pad="1"/>
-<contactref element="JP5" pad="3"/>
 <contactref element="J0" pad="3"/>
+<contactref element="JP5" pad="3"/>
 <wire x1="72.2376" y1="22.5552" x2="70.0278" y2="22.5552" width="0.6096" layer="1"/>
 <wire x1="72.39" y1="22.7076" x2="72.2376" y2="22.5552" width="0.6096" layer="1"/>
 <wire x1="70.0278" y1="22.5552" x2="70" y2="22.5" width="0.6096" layer="1"/>
