@@ -26269,7 +26269,6 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <part name="X101" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="PAD-N" device=""/>
 <part name="OK1" library="optocoupler" library_urn="urn:adsk.eagle:library:320" deviceset="HCPL2630" device="" package3d_urn="urn:adsk.eagle:package:21941/1"/>
 <part name="SUPPLY1" library="supply2" deviceset="GND" device=""/>
-<part name="X2" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="PAD-N" device=""/>
 <part name="V+" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD2" device="" package3d_urn="urn:adsk.eagle:package:30839/1"/>
 <part name="VIN" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD2" device="" package3d_urn="urn:adsk.eagle:package:30839/1"/>
 <part name="J7" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="DIN5" device="" package3d_urn="urn:adsk.eagle:package:38294/1"/>
@@ -26646,9 +26645,9 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <attribute name="VALUE" x="86.36" y="7.874" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="86.36" y="25.908" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="RN4" gate="A" x="200.66" y="17.78" smashed="yes">
-<attribute name="VALUE" x="203.2" y="14.732" size="1.778" layer="96"/>
-<attribute name="NAME" x="195.58" y="14.732" size="1.778" layer="95"/>
+<instance part="RN4" gate="A" x="241.3" y="114.3" smashed="yes" rot="R270">
+<attribute name="VALUE" x="238.252" y="111.76" size="1.778" layer="96" rot="R270"/>
+<attribute name="NAME" x="238.252" y="119.38" size="1.778" layer="95" rot="R270"/>
 </instance>
 <instance part="RN4" gate="B" x="205.74" y="124.46" smashed="yes">
 <attribute name="VALUE" x="208.28" y="121.412" size="1.778" layer="96"/>
@@ -26684,17 +26683,16 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <attribute name="NAME" x="236.22" y="154.94" size="1.778" layer="95" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="231.14" y="154.94" size="1.778" layer="96" rot="R270" align="top-center"/>
 </instance>
-<instance part="X101" gate="G$1" x="233.68" y="134.62" smashed="yes"/>
+<instance part="X101" gate="G$1" x="218.44" y="137.16" smashed="yes"/>
 <instance part="OK1" gate="A" x="180.34" y="119.38" smashed="yes" rot="MR0">
 <attribute name="NAME" x="189.865" y="125.095" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="189.865" y="111.76" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="OK1" gate="B" x="251.46" y="114.3" smashed="yes">
-<attribute name="NAME" x="241.935" y="120.015" size="1.778" layer="95"/>
-<attribute name="VALUE" x="241.935" y="106.68" size="1.778" layer="96"/>
+<instance part="OK1" gate="B" x="256.54" y="104.14" smashed="yes">
+<attribute name="NAME" x="247.015" y="109.855" size="1.778" layer="95"/>
+<attribute name="VALUE" x="247.015" y="96.52" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY1" gate="GND" x="236.22" y="104.14" smashed="yes"/>
-<instance part="X2" gate="G$1" x="264.16" y="114.3" smashed="yes"/>
+<instance part="SUPPLY1" gate="GND" x="241.3" y="93.98" smashed="yes"/>
 <instance part="V+" gate="1" x="76.2" y="241.3" smashed="yes" rot="R270">
 <attribute name="NAME" x="76.2" y="243.84" size="1.778" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="72.898" y="242.443" size="1.778" layer="96" rot="R270"/>
@@ -26935,13 +26933,9 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <label x="99.06" y="12.7" size="0.8128" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="OK1" gate="B" pin="A2"/>
-<wire x1="238.76" y1="116.84" x2="236.22" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="OK1" gate="B" pin="C2"/>
-<wire x1="238.76" y1="111.76" x2="236.22" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="236.22" y1="111.76" x2="236.22" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="236.22" y1="111.76" x2="236.22" y2="106.68" width="0.1524" layer="91"/>
-<junction x="236.22" y="111.76"/>
+<wire x1="243.84" y1="101.6" x2="241.3" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="101.6" x2="241.3" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="SUPPLY1" gate="GND" pin="GND"/>
 </segment>
 <segment>
@@ -27498,34 +27492,26 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <label x="309.88" y="129.54" size="0.8128" layer="95" rot="MR0" xref="yes"/>
 </segment>
 </net>
-<net name="GATE" class="0">
+<net name="MNTR" class="0">
 <segment>
 <pinref part="MC1" gate="G$1" pin="A4"/>
 <wire x1="342.9" y1="129.54" x2="340.36" y2="129.54" width="0.1524" layer="91"/>
 <label x="340.36" y="129.54" size="0.8128" layer="95" rot="MR0" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="D" pin="C"/>
-<wire x1="91.44" y1="96.52" x2="93.98" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="96.52" x2="93.98" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="C" pin="C"/>
-<wire x1="93.98" y1="109.22" x2="91.44" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="B" pin="C"/>
-<wire x1="91.44" y1="121.92" x2="93.98" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="109.22" x2="93.98" y2="121.92" width="0.1524" layer="91"/>
-<junction x="93.98" y="109.22"/>
-<pinref part="IC2" gate="A" pin="C"/>
-<wire x1="91.44" y1="134.62" x2="93.98" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="121.92" x2="93.98" y2="134.62" width="0.1524" layer="91"/>
-<junction x="93.98" y="121.92"/>
-<wire x1="93.98" y1="134.62" x2="93.98" y2="144.78" width="0.1524" layer="91"/>
-<junction x="93.98" y="134.62"/>
-<label x="93.98" y="144.78" size="0.8128" layer="95" rot="R90" xref="yes"/>
-</segment>
-<segment>
 <pinref part="JP7" gate="A" pin="15"/>
 <wire x1="342.9" y1="182.88" x2="337.82" y2="182.88" width="0.1524" layer="91"/>
 <label x="337.82" y="182.88" size="0.8128" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="RN3" gate="1" pin="5"/>
+<wire x1="233.68" y1="134.62" x2="236.22" y2="134.62" width="0.1524" layer="91"/>
+<label x="236.22" y="134.62" size="0.8128" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="OK1" gate="B" pin="VO2"/>
+<wire x1="269.24" y1="104.14" x2="271.78" y2="104.14" width="0.1524" layer="91"/>
+<label x="271.78" y="104.14" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="VDD" class="2">
@@ -27564,7 +27550,7 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <label x="309.88" y="134.62" size="0.8128" layer="95" rot="MR0" xref="yes"/>
 </segment>
 </net>
-<net name="D7" class="0">
+<net name="D7GATE" class="0">
 <segment>
 <pinref part="MC1" gate="G$1" pin="7"/>
 <wire x1="368.3" y1="134.62" x2="370.84" y2="134.62" width="0.1524" layer="91"/>
@@ -27579,6 +27565,24 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <pinref part="JP7" gate="A" pin="7"/>
 <wire x1="342.9" y1="193.04" x2="337.82" y2="193.04" width="0.1524" layer="91"/>
 <label x="337.82" y="193.04" size="0.8128" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="IC2" gate="D" pin="C"/>
+<wire x1="91.44" y1="96.52" x2="93.98" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="96.52" x2="93.98" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="C" pin="C"/>
+<wire x1="93.98" y1="109.22" x2="91.44" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="B" pin="C"/>
+<wire x1="91.44" y1="121.92" x2="93.98" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="109.22" x2="93.98" y2="121.92" width="0.1524" layer="91"/>
+<junction x="93.98" y="109.22"/>
+<pinref part="IC2" gate="A" pin="C"/>
+<wire x1="91.44" y1="134.62" x2="93.98" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="121.92" x2="93.98" y2="134.62" width="0.1524" layer="91"/>
+<junction x="93.98" y="121.92"/>
+<wire x1="93.98" y1="134.62" x2="93.98" y2="144.78" width="0.1524" layer="91"/>
+<junction x="93.98" y="134.62"/>
+<label x="93.98" y="144.78" size="0.8128" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="GPIO2" class="0">
@@ -27663,8 +27667,13 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <pinref part="JP1" gate="A" pin="5"/>
 <wire x1="81.28" y1="231.14" x2="66.04" y2="231.14" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="RN4" gate="A" pin="1"/>
+<wire x1="241.3" y1="119.38" x2="241.3" y2="121.92" width="0.1524" layer="91"/>
+<label x="241.3" y="121.92" size="0.8128" layer="95" rot="R90" xref="yes"/>
+</segment>
 </net>
-<net name="LED1A" class="0">
+<net name="LED2A" class="0">
 <segment>
 <wire x1="88.9" y1="38.1" x2="73.66" y2="38.1" width="0.1524" layer="91"/>
 <label x="81.28" y="38.1" size="1.778" layer="95"/>
@@ -27865,7 +27874,7 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <wire x1="33.02" y1="236.22" x2="45.72" y2="236.22" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="LED0A" class="0">
+<net name="LED1A" class="0">
 <segment>
 <wire x1="88.9" y1="33.02" x2="73.66" y2="33.02" width="0.1524" layer="91"/>
 <label x="81.28" y="33.02" size="1.778" layer="95"/>
@@ -28086,12 +28095,18 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <label x="309.88" y="99.06" size="0.8128" layer="95" rot="MR0" xref="yes"/>
 </segment>
 </net>
+<net name="MNTRA" class="0">
+<segment>
+<pinref part="OK1" gate="B" pin="A2"/>
+<wire x1="243.84" y1="106.68" x2="241.3" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="RN4" gate="A" pin="2"/>
+<wire x1="241.3" y1="106.68" x2="241.3" y2="109.22" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
 <errors>
-<approved hash="101,1,195.58,17.78,RN4A,1,,,,"/>
-<approved hash="101,1,205.74,17.78,RN4A,2,,,,"/>
 <approved hash="104,1,190.5,213.36,U1,VDD,VCC,,,"/>
 <approved hash="104,1,241.3,203.2,IC2P,VSS,GND,,,"/>
 <approved hash="104,1,241.3,218.44,IC2P,VDD,VCC,,,"/>
@@ -28112,8 +28127,6 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <approved hash="113,1,40.64,142.24,X14,,,,,"/>
 <approved hash="113,1,205.74,17.78,X5,,,,,"/>
 <approved hash="113,1,195.58,17.78,X8,,,,,"/>
-<approved hash="113,1,233.68,134.62,X101,,,,,"/>
-<approved hash="113,1,264.16,114.3,X2,,,,,"/>
 <approved hash="113,1,76.2,240.421,V+,,,,,"/>
 <approved hash="113,1,93.98,240.421,VIN,,,,,"/>
 <approved hash="113,1,33.6127,199.73,J0,,,,,"/>
