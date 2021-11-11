@@ -273,7 +273,7 @@ Module (12708)</text>
 <rectangle x1="79" y1="11.5" x2="91" y2="12.5" layer="41"/>
 <rectangle x1="78" y1="0" x2="79" y2="11.5" layer="41"/>
 <rectangle x1="12" y1="0" x2="13" y2="11.5" layer="41"/>
-<rectangle x1="-1" y1="11.5" x2="12" y2="12.5" layer="41"/>
+<rectangle x1="0" y1="11.5" x2="12" y2="12.5" layer="41"/>
 <rectangle x1="78" y1="0" x2="79" y2="11.5" layer="42"/>
 <rectangle x1="79" y1="11.5" x2="91" y2="12.5" layer="42"/>
 <rectangle x1="90" y1="11.5" x2="91" y2="78.5" layer="42"/>
@@ -290,8 +290,9 @@ Module (12708)</text>
 <rectangle x1="29.5" y1="27" x2="30" y2="29" layer="21"/>
 <rectangle x1="29.5" y1="30" x2="30" y2="32" layer="21"/>
 <rectangle x1="29.5" y1="33" x2="30" y2="35" layer="21"/>
-<text x="1" y="15.5" size="1" layer="25" align="center-left">Designed for
-Takachi PF10-4-10</text>
+<text x="1" y="15" size="1" layer="25" align="center-left">Designed for
+Takachi
+PF10-4-10</text>
 <rectangle x1="77.46" y1="52.62" x2="80" y2="57.7" layer="21"/>
 <text x="40.5" y="20" size="1" layer="25" align="center">THRU</text>
 <text x="76" y="3" size="1" layer="25" align="center">OUT</text>
@@ -360,6 +361,8 @@ Takachi PF10-4-10</text>
 <vertex x="13" y="11.5"/>
 <vertex x="12" y="11.5"/>
 </polygon>
+<text x="76" y="85" size="1" layer="25" rot="R90" align="center">GeekPort 2.0</text>
+<text x="74.5" y="51.5" size="1" layer="25" rot="R90" align="center">BackPort 2.0</text>
 </plain>
 <libraries>
 <library name="SparkFun-DiscreteSemi" urn="urn:adsk.eagle:library:514">
