@@ -363,6 +363,15 @@ PF10-4-10</text>
 </polygon>
 <text x="76" y="85" size="1" layer="25" rot="R90" align="center">GeekPort 2.0</text>
 <text x="74.5" y="51.5" size="1" layer="25" rot="R90" align="center">BackPort 2.0</text>
+<wire x1="64.81" y1="31" x2="64.81" y2="33" width="0.15" layer="21"/>
+<wire x1="64.81" y1="33" x2="63.04" y2="33" width="0.15" layer="21"/>
+<wire x1="63.04" y1="33" x2="62.27" y2="33" width="0.15" layer="21"/>
+<wire x1="62.27" y1="33" x2="62.27" y2="31" width="0.15" layer="21"/>
+<wire x1="63.04" y1="33" x2="64.04" y2="33.5" width="0.15" layer="21"/>
+<wire x1="64.04" y1="33.5" x2="64.04" y2="32.5" width="0.15" layer="21"/>
+<wire x1="64.04" y1="32.5" x2="63.04" y2="33" width="0.15" layer="21"/>
+<wire x1="63.04" y1="33.5" x2="63.04" y2="32.5" width="0.15" layer="21"/>
+<text x="63.54" y="34.5" size="1" layer="25" align="center">LED00</text>
 </plain>
 <libraries>
 <library name="SparkFun-DiscreteSemi" urn="urn:adsk.eagle:library:514">
