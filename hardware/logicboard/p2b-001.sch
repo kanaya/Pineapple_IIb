@@ -27109,7 +27109,7 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <label x="330.2" y="246.38" size="0.8128" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
-<net name="ANLG4" class="3">
+<net name="ANLG3" class="3">
 <segment>
 <pinref part="MC1" gate="G$1" pin="A3"/>
 <wire x1="342.9" y1="132.08" x2="340.36" y2="132.08" width="0.1524" layer="91"/>
@@ -27129,7 +27129,7 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <wire x1="88.9" y1="88.9" x2="88.9" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="ANLG3" class="3">
+<net name="ANLG2" class="3">
 <segment>
 <pinref part="MC1" gate="G$1" pin="A2"/>
 <wire x1="342.9" y1="134.62" x2="340.36" y2="134.62" width="0.1524" layer="91"/>
@@ -27149,7 +27149,7 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <wire x1="83.82" y1="88.9" x2="83.82" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="ANLG2" class="3">
+<net name="ANLG1" class="3">
 <segment>
 <pinref part="MC1" gate="G$1" pin="A1"/>
 <wire x1="342.9" y1="137.16" x2="340.36" y2="137.16" width="0.1524" layer="91"/>
@@ -27169,7 +27169,7 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <wire x1="78.74" y1="88.9" x2="78.74" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="ANLG1" class="3">
+<net name="ANLG0" class="3">
 <segment>
 <pinref part="MC1" gate="G$1" pin="A0"/>
 <wire x1="342.9" y1="139.7" x2="340.36" y2="139.7" width="0.1524" layer="91"/>
@@ -27324,7 +27324,7 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <label x="160.02" y="193.04" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="DTCT1" class="0">
+<net name="DTCT0" class="0">
 <segment>
 <pinref part="MC1" gate="G$1" pin="6"/>
 <wire x1="368.3" y1="132.08" x2="370.84" y2="132.08" width="0.1524" layer="91"/>
@@ -27341,7 +27341,7 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <label x="330.2" y="231.14" size="0.8128" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
-<net name="DTCT2" class="0">
+<net name="DTCT1" class="0">
 <segment>
 <pinref part="MC1" gate="G$1" pin="9"/>
 <wire x1="368.3" y1="139.7" x2="370.84" y2="139.7" width="0.1524" layer="91"/>
@@ -27358,7 +27358,7 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <label x="330.2" y="226.06" size="0.8128" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
-<net name="DTCT3" class="0">
+<net name="DTCT2" class="0">
 <segment>
 <pinref part="MC1" gate="G$1" pin="10"/>
 <wire x1="368.3" y1="142.24" x2="370.84" y2="142.24" width="0.1524" layer="91"/>
@@ -27375,7 +27375,7 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <label x="330.2" y="220.98" size="0.8128" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
-<net name="DTCT4" class="0">
+<net name="DTCT3" class="0">
 <segment>
 <pinref part="MC1" gate="G$1" pin="12"/>
 <wire x1="368.3" y1="147.32" x2="370.84" y2="147.32" width="0.1524" layer="91"/>
@@ -27392,7 +27392,7 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <label x="330.2" y="215.9" size="0.8128" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
-<net name="LED1" class="0">
+<net name="LED0" class="0">
 <segment>
 <pinref part="MC1" gate="G$1" pin="13"/>
 <wire x1="342.9" y1="147.32" x2="340.36" y2="147.32" width="0.1524" layer="91"/>
@@ -27433,7 +27433,7 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <label x="340.36" y="144.78" size="0.8128" layer="95" rot="MR0" xref="yes"/>
 </segment>
 </net>
-<net name="LED2" class="0">
+<net name="LED1" class="0">
 <segment>
 <pinref part="MC1" gate="G$1" pin="11"/>
 <wire x1="368.3" y1="144.78" x2="370.84" y2="144.78" width="0.1524" layer="91"/>
@@ -27492,7 +27492,7 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <label x="309.88" y="215.9" size="0.8128" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
-<net name="GPIO2" class="0">
+<net name="GPIO1" class="0">
 <segment>
 <pinref part="MC1" gate="G$1" pin="8"/>
 <wire x1="368.3" y1="137.16" x2="370.84" y2="137.16" width="0.1524" layer="91"/>
@@ -27509,7 +27509,7 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <label x="330.2" y="236.22" size="0.8128" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
-<net name="GPIO1" class="0">
+<net name="GPIO0" class="0">
 <segment>
 <pinref part="MC1" gate="G$1" pin="5"/>
 <wire x1="368.3" y1="129.54" x2="370.84" y2="129.54" width="0.1524" layer="91"/>
