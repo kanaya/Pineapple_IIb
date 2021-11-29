@@ -27580,7 +27580,7 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <label x="241.3" y="121.92" size="0.8128" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
-<net name="LED2A" class="0">
+<net name="LED1A" class="0">
 <segment>
 <wire x1="88.9" y1="38.1" x2="73.66" y2="38.1" width="0.1524" layer="91"/>
 <label x="81.28" y="38.1" size="1.778" layer="95"/>
@@ -27781,7 +27781,7 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <wire x1="33.02" y1="236.22" x2="45.72" y2="236.22" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="LED1A" class="0">
+<net name="LED0A" class="0">
 <segment>
 <wire x1="88.9" y1="33.02" x2="73.66" y2="33.02" width="0.1524" layer="91"/>
 <label x="81.28" y="33.02" size="1.778" layer="95"/>
