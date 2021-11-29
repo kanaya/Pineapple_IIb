@@ -26156,6 +26156,7 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="SV3" library="con-ml" library_urn="urn:adsk.eagle:library:164" deviceset="ML14E" device="" package3d_urn="urn:adsk.eagle:package:8693/1"/>
+<part name="J6" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_03" device="JST-PTH-VERT" package3d_urn="urn:adsk.eagle:package:38080/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -26590,9 +26591,9 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <attribute name="NAME" x="93.98" y="40.64" size="1.778" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="93.98" y="35.56" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="JP6" gate="A" x="71.12" y="35.56" smashed="yes" rot="MR0">
-<attribute name="NAME" x="77.47" y="41.275" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="77.47" y="27.94" size="1.778" layer="96" rot="MR0"/>
+<instance part="JP6" gate="A" x="63.5" y="35.56" smashed="yes" rot="MR0">
+<attribute name="NAME" x="69.85" y="41.275" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="69.85" y="27.94" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="JP5" gate="A" x="30.48" y="233.68" smashed="yes" rot="R180">
 <attribute name="NAME" x="36.83" y="227.965" size="1.778" layer="95" rot="R180"/>
@@ -26683,6 +26684,10 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <instance part="SV3" gate="-14" x="335.28" y="215.9" smashed="yes">
 <attribute name="NAME" x="337.82" y="215.138" size="1.778" layer="95"/>
 <attribute name="VALUE" x="335.026" y="212.979" size="1.778" layer="96"/>
+</instance>
+<instance part="J6" gate="J$1" x="66.04" y="20.32" smashed="yes">
+<attribute name="VALUE" x="63.5" y="12.954" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="63.5" y="25.908" size="1.778" layer="95" font="vector"/>
 </instance>
 </instances>
 <busses>
@@ -26805,8 +26810,13 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 </segment>
 <segment>
 <label x="101.6" y="35.56" size="0.8128" layer="95" xref="yes"/>
-<wire x1="73.66" y1="35.56" x2="101.6" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="35.56" x2="78.74" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="JP6" gate="A" pin="2"/>
+<pinref part="J6" gate="J$1" pin="2"/>
+<wire x1="78.74" y1="35.56" x2="101.6" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="20.32" x2="78.74" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="20.32" x2="78.74" y2="35.56" width="0.1524" layer="91"/>
+<junction x="78.74" y="35.56"/>
 </segment>
 <segment>
 <pinref part="RN1" gate="1" pin="1"/>
@@ -27582,10 +27592,15 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 </net>
 <net name="LED1A" class="0">
 <segment>
-<wire x1="88.9" y1="38.1" x2="73.66" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="38.1" x2="76.2" y2="38.1" width="0.1524" layer="91"/>
 <label x="81.28" y="38.1" size="1.778" layer="95"/>
 <pinref part="R5" gate="G$1" pin="1"/>
 <pinref part="JP6" gate="A" pin="1"/>
+<pinref part="J6" gate="J$1" pin="1"/>
+<wire x1="76.2" y1="38.1" x2="66.04" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="17.78" x2="76.2" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="17.78" x2="76.2" y2="38.1" width="0.1524" layer="91"/>
+<junction x="76.2" y="38.1"/>
 </segment>
 </net>
 <net name="MISND" class="0">
@@ -27783,10 +27798,15 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 </net>
 <net name="LED0A" class="0">
 <segment>
-<wire x1="88.9" y1="33.02" x2="73.66" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="33.02" x2="81.28" y2="33.02" width="0.1524" layer="91"/>
 <label x="81.28" y="33.02" size="1.778" layer="95"/>
 <pinref part="R4" gate="G$1" pin="1"/>
 <pinref part="JP6" gate="A" pin="3"/>
+<pinref part="J6" gate="J$1" pin="3"/>
+<wire x1="81.28" y1="33.02" x2="66.04" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="22.86" x2="81.28" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="22.86" x2="81.28" y2="33.02" width="0.1524" layer="91"/>
+<junction x="81.28" y="33.02"/>
 </segment>
 </net>
 <net name="ANLG1R" class="3">
