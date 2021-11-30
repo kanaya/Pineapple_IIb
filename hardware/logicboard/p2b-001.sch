@@ -26131,7 +26131,6 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <part name="X5" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="PAD-N" device=""/>
 <part name="X8" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="PAD-N" device=""/>
 <part name="RN3" library="resistor-net" library_urn="urn:adsk.eagle:library:343" deviceset="RN04" device="" package3d_urn="urn:adsk.eagle:package:24976/1" value="4.7k"/>
-<part name="X101" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="PAD-N" device=""/>
 <part name="OK1" library="optocoupler" library_urn="urn:adsk.eagle:library:320" deviceset="HCPL2630" device="" package3d_urn="urn:adsk.eagle:package:21941/1"/>
 <part name="SUPPLY1" library="supply2" deviceset="GND" device=""/>
 <part name="V+" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD2" device="" package3d_urn="urn:adsk.eagle:package:30839/1"/>
@@ -26549,7 +26548,6 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <attribute name="NAME" x="236.22" y="154.94" size="1.778" layer="95" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="231.14" y="154.94" size="1.778" layer="96" rot="R270" align="top-center"/>
 </instance>
-<instance part="X101" gate="G$1" x="218.44" y="137.16" smashed="yes"/>
 <instance part="OK1" gate="A" x="180.34" y="119.38" smashed="yes" rot="MR0">
 <attribute name="NAME" x="189.865" y="125.095" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="189.865" y="111.76" size="1.778" layer="96" rot="MR0"/>
@@ -26691,7 +26689,7 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 </instance>
 </instances>
 <busses>
-<bus name="ANLG[1..4]">
+<bus name="ANLG[0..3]">
 <segment>
 <wire x1="96.52" y1="137.16" x2="96.52" y2="93.98" width="0.762" layer="92"/>
 <wire x1="96.52" y1="93.98" x2="93.98" y2="91.44" width="0.762" layer="92" curve="-90"/>
@@ -28057,7 +28055,8 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <approved hash="113,1,76.2,240.421,V+,,,,,"/>
 <approved hash="113,1,93.98,240.421,VIN,,,,,"/>
 <approved hash="113,1,33.6127,199.73,J0,,,,,"/>
-<approved hash="113,1,346.668,193.266,JP7,,,,,"/>
+<approved hash="113,1,316.632,246.38,SV3,,,,,"/>
+<approved hash="113,1,70.4427,21.6577,J6,,,,,"/>
 </errors>
 </schematic>
 </drawing>
