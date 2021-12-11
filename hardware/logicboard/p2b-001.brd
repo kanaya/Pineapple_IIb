@@ -381,7 +381,7 @@ PF10-4-10</text>
 <circle x="48.5" y="85.5" radius="2" width="0.2" layer="41"/>
 <circle x="73.5" y="85.5" radius="2" width="0.2" layer="42"/>
 <circle x="48.5" y="85.5" radius="2" width="0.2" layer="42"/>
-<text x="79" y="14" size="1" layer="25" align="center-left">4-M3</text>
+<text x="79" y="14" size="1" layer="25" align="center-left">4-M2.3</text>
 </plain>
 <libraries>
 <library name="SparkFun-DiscreteSemi" urn="urn:adsk.eagle:library:514">
