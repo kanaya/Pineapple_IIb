@@ -27999,7 +27999,7 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <label x="309.88" y="139.7" size="0.8128" layer="95" rot="MR0" xref="yes"/>
 </segment>
 </net>
-<net name="MRXDTCT" class="0">
+<net name="NDX" class="0">
 <segment>
 <pinref part="SV2" gate="-4" pin="S"/>
 <wire x1="312.42" y1="147.32" x2="309.88" y2="147.32" width="0.1524" layer="91"/>
