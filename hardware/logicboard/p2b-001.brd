@@ -191,67 +191,67 @@
 Real Time Clock
 Module (12708)</text>
 <polygon width="0.15" layer="21">
-<vertex x="97.25" y="38.5"/>
-<vertex x="96.75" y="38.5"/>
-<vertex x="96.75" y="37"/>
-<vertex x="97.25" y="37"/>
+<vertex x="38.25" y="84.5"/>
+<vertex x="37.75" y="84.5"/>
+<vertex x="37.75" y="83"/>
+<vertex x="38.25" y="83"/>
 </polygon>
-<wire x1="96.25" y1="38.5" x2="95.75" y2="38.5" width="0.15" layer="21"/>
-<wire x1="95.75" y1="38.5" x2="95.75" y2="37" width="0.15" layer="21"/>
-<wire x1="95.75" y1="37" x2="96.25" y2="37" width="0.15" layer="21"/>
-<wire x1="96.25" y1="37" x2="96.25" y2="38.5" width="0.15" layer="21"/>
+<wire x1="37.25" y1="84.5" x2="36.75" y2="84.5" width="0.15" layer="21"/>
+<wire x1="36.75" y1="84.5" x2="36.75" y2="83" width="0.15" layer="21"/>
+<wire x1="36.75" y1="83" x2="37.25" y2="83" width="0.15" layer="21"/>
+<wire x1="37.25" y1="83" x2="37.25" y2="84.5" width="0.15" layer="21"/>
 <polygon width="0.15" layer="21">
-<vertex x="95.25" y="38.5"/>
-<vertex x="95.25" y="37"/>
-<vertex x="94.75" y="37"/>
-<vertex x="94.75" y="38.5"/>
-</polygon>
-<polygon width="0.15" layer="21">
-<vertex x="97.25" y="34.5"/>
-<vertex x="97.25" y="33"/>
-<vertex x="96.75" y="33"/>
-<vertex x="96.75" y="34.5"/>
+<vertex x="36.25" y="84.5"/>
+<vertex x="36.25" y="83"/>
+<vertex x="35.75" y="83"/>
+<vertex x="35.75" y="84.5"/>
 </polygon>
 <polygon width="0.15" layer="21">
-<vertex x="96.25" y="34.5"/>
-<vertex x="96.25" y="33"/>
-<vertex x="95.75" y="33"/>
-<vertex x="95.75" y="34.5"/>
-</polygon>
-<wire x1="95.25" y1="34.5" x2="95.25" y2="33" width="0.15" layer="21"/>
-<wire x1="95.25" y1="33" x2="94.75" y2="33" width="0.15" layer="21"/>
-<wire x1="94.75" y1="33" x2="94.75" y2="34.5" width="0.15" layer="21"/>
-<wire x1="94.75" y1="34.5" x2="95.25" y2="34.5" width="0.15" layer="21"/>
-<polygon width="0.15" layer="21">
-<vertex x="95.25" y="30.5"/>
-<vertex x="95.25" y="29"/>
-<vertex x="94.75" y="29"/>
-<vertex x="94.75" y="30.5"/>
+<vertex x="38.25" y="80.5"/>
+<vertex x="38.25" y="79"/>
+<vertex x="37.75" y="79"/>
+<vertex x="37.75" y="80.5"/>
 </polygon>
 <polygon width="0.15" layer="21">
-<vertex x="97.25" y="29.5"/>
-<vertex x="97.25" y="29"/>
-<vertex x="95.75" y="29"/>
-<vertex x="95.75" y="29.5"/>
+<vertex x="37.25" y="80.5"/>
+<vertex x="37.25" y="79"/>
+<vertex x="36.75" y="79"/>
+<vertex x="36.75" y="80.5"/>
 </polygon>
-<wire x1="97.25" y1="30.5" x2="97.25" y2="30" width="0.15" layer="21"/>
-<wire x1="97.25" y1="30" x2="95.75" y2="30" width="0.15" layer="21"/>
-<wire x1="95.75" y1="30" x2="95.75" y2="30.5" width="0.15" layer="21"/>
-<wire x1="95.75" y1="30.5" x2="97.25" y2="30.5" width="0.15" layer="21"/>
-<wire x1="97.25" y1="26.5" x2="94.75" y2="26.5" width="0.15" layer="21"/>
-<wire x1="94.75" y1="26.5" x2="94.75" y2="26" width="0.15" layer="21"/>
-<wire x1="94.75" y1="26" x2="97.25" y2="26" width="0.15" layer="21"/>
-<wire x1="97.25" y1="26" x2="97.25" y2="26.5" width="0.15" layer="21"/>
+<wire x1="36.25" y1="80.5" x2="36.25" y2="79" width="0.15" layer="21"/>
+<wire x1="36.25" y1="79" x2="35.75" y2="79" width="0.15" layer="21"/>
+<wire x1="35.75" y1="79" x2="35.75" y2="80.5" width="0.15" layer="21"/>
+<wire x1="35.75" y1="80.5" x2="36.25" y2="80.5" width="0.15" layer="21"/>
 <polygon width="0.15" layer="21">
-<vertex x="97.25" y="25.5"/>
-<vertex x="97.25" y="25"/>
-<vertex x="94.75" y="25"/>
-<vertex x="94.75" y="25.5"/>
+<vertex x="36.25" y="76.5"/>
+<vertex x="36.25" y="75"/>
+<vertex x="35.75" y="75"/>
+<vertex x="35.75" y="76.5"/>
 </polygon>
-<text x="96" y="39.5" size="1" layer="25" align="center">Dual</text>
+<polygon width="0.15" layer="21">
+<vertex x="38.25" y="75.5"/>
+<vertex x="38.25" y="75"/>
+<vertex x="36.75" y="75"/>
+<vertex x="36.75" y="75.5"/>
+</polygon>
+<wire x1="38.25" y1="76.5" x2="38.25" y2="76" width="0.15" layer="21"/>
+<wire x1="38.25" y1="76" x2="36.75" y2="76" width="0.15" layer="21"/>
+<wire x1="36.75" y1="76" x2="36.75" y2="76.5" width="0.15" layer="21"/>
+<wire x1="36.75" y1="76.5" x2="38.25" y2="76.5" width="0.15" layer="21"/>
+<wire x1="38.25" y1="72.5" x2="35.75" y2="72.5" width="0.15" layer="21"/>
+<wire x1="35.75" y1="72.5" x2="35.75" y2="72" width="0.15" layer="21"/>
+<wire x1="35.75" y1="72" x2="38.25" y2="72" width="0.15" layer="21"/>
+<wire x1="38.25" y1="72" x2="38.25" y2="72.5" width="0.15" layer="21"/>
+<polygon width="0.15" layer="21">
+<vertex x="38.25" y="71.5"/>
+<vertex x="38.25" y="71"/>
+<vertex x="35.75" y="71"/>
+<vertex x="35.75" y="71.5"/>
+</polygon>
+<text x="37" y="85.5" size="1" layer="25" align="center">Dual</text>
 <text x="15" y="3" size="1" layer="25" align="center">IN</text>
-<text x="96" y="31.5" size="1" layer="25" align="center">Ard.</text>
-<text x="96" y="27.5" size="1" layer="25" align="center">D5V</text>
+<text x="37" y="77.5" size="1" layer="25" align="center">Ard.</text>
+<text x="37" y="73.5" size="1" layer="25" align="center">D5V</text>
 <rectangle x1="21.5" y1="54.84" x2="22" y2="56.84" layer="21"/>
 <wire x1="8" y1="26.5" x2="8" y2="19.5" width="0.15" layer="22"/>
 <wire x1="79" y1="80" x2="80.5" y2="78.5" width="0" layer="20" curve="90"/>
@@ -294,7 +294,7 @@ Takachi
 PF10-4-10</text>
 <text x="40.5" y="20" size="1" layer="25" align="center">THRU</text>
 <text x="76" y="3" size="1" layer="25" align="center">OUT</text>
-<text x="96" y="35.5" size="1" layer="25" align="center">Single</text>
+<text x="37" y="81.5" size="1" layer="25" align="center">Single</text>
 <text x="85" y="23.04" size="1" layer="25" align="center-right">V+</text>
 <text x="85" y="17.96" size="1" layer="25" align="center-right">GND</text>
 <text x="85" y="20.5" size="1" layer="25" align="center-right">Vcc</text>
@@ -359,7 +359,7 @@ PF10-4-10</text>
 <vertex x="12" y="11.5"/>
 </polygon>
 <text x="76" y="85" size="1" layer="25" rot="R90" align="center">GeekPort II</text>
-<text x="96" y="46.5" size="1" layer="25" rot="R90" align="center">BackPort II</text>
+<text x="89" y="45.5" size="1" layer="25" rot="R90" align="center">BackPort II</text>
 <wire x1="64.81" y1="31" x2="64.81" y2="33" width="0.15" layer="21"/>
 <wire x1="64.81" y1="33" x2="63.04" y2="33" width="0.15" layer="21"/>
 <wire x1="63.04" y1="33" x2="62.27" y2="33" width="0.15" layer="21"/>
@@ -430,6 +430,7 @@ PF10-4-10</text>
 <text x="83" y="38.65" size="1" layer="25" align="center-left">GND</text>
 <text x="83" y="36.11" size="1" layer="25" align="center-left">THRU5</text>
 <text x="83" y="33.57" size="1" layer="25" align="center-left">LED1</text>
+<text x="66" y="24.5" size="1" layer="25" rot="R90" align="center">TestPort II</text>
 </plain>
 <libraries>
 <library name="SparkFun-DiscreteSemi" urn="urn:adsk.eagle:library:514">
@@ -5442,7 +5443,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="70" y="34.5" size="0.8128" layer="27" ratio="10" rot="R90" align="bottom-center"/>
 </element>
 <element name="C7" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C025-024X044" package3d_urn="urn:adsk.eagle:package:23630/1" value="10n" x="73" y="59.5" smashed="yes" rot="R90">
-<attribute name="NAME" x="73" y="56.5" size="1" layer="25" ratio="10" align="center"/>
+<attribute name="NAME" x="75" y="59.5" size="1" layer="25" ratio="10" rot="R90" align="center"/>
 <attribute name="VALUE" x="75" y="59.5" size="0.8128" layer="27" ratio="10" rot="R90" align="bottom-center"/>
 </element>
 <element name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C025-050X050" package3d_urn="urn:adsk.eagle:package:23633/1" value="22u" x="26" y="24" smashed="yes">
@@ -5653,7 +5654,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="46.61" y="19.555" size="1.27" layer="27"/>
 </element>
 <element name="SV2" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="2X10" package3d_urn="urn:adsk.eagle:package:22405/2" value="" x="80" y="45" smashed="yes" rot="R270">
-<attribute name="NAME" x="96.675" y="55.7" size="1.27" layer="25" ratio="10" rot="R270"/>
+<attribute name="NAME" x="87" y="45" size="1" layer="25" ratio="10" rot="R90" align="center"/>
 <attribute name="POPULARITY" value="7" x="80" y="45" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="75.555" y="57.7" size="1.27" layer="27" rot="R270"/>
 </element>
