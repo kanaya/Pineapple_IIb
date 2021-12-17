@@ -305,7 +305,7 @@ PF10-4-10</text>
 <text x="81" y="73.5" size="1" layer="25" align="center">LED</text>
 <text x="75" y="20.5" size="1" layer="25" align="center">Vcc</text>
 <text x="75" y="27.5" size="1" layer="25" align="center">Vout</text>
-<text x="77.54" y="20.5" size="1" layer="25" align="center-left">Vout/2</text>
+<text x="77.54" y="20.5" size="1" layer="25" align="center-left">Vcc/2</text>
 <text x="77.54" y="27.5" size="1" layer="25" align="center-left">Vout</text>
 <text x="72.46" y="27.5" size="1" layer="25" align="center-right">Vin</text>
 <text x="72.46" y="20.5" size="1" layer="25" align="center-right">V+</text>
