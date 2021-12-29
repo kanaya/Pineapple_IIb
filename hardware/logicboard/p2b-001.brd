@@ -6,10 +6,10 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="2" display="yes" altdistance="50" altunitdist="mil" altunit="mil"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="2" display="yes" altdistance="50" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -191,67 +191,67 @@
 Real Time Clock
 Module (12708)</text>
 <polygon width="0.15" layer="21">
-<vertex x="38.25" y="84.5"/>
-<vertex x="37.75" y="84.5"/>
-<vertex x="37.75" y="83"/>
-<vertex x="38.25" y="83"/>
+<vertex x="38.25" y="85"/>
+<vertex x="37.75" y="85"/>
+<vertex x="37.75" y="83.5"/>
+<vertex x="38.25" y="83.5"/>
 </polygon>
-<wire x1="37.25" y1="84.5" x2="36.75" y2="84.5" width="0.15" layer="21"/>
-<wire x1="36.75" y1="84.5" x2="36.75" y2="83" width="0.15" layer="21"/>
-<wire x1="36.75" y1="83" x2="37.25" y2="83" width="0.15" layer="21"/>
-<wire x1="37.25" y1="83" x2="37.25" y2="84.5" width="0.15" layer="21"/>
+<wire x1="37.25" y1="85" x2="36.75" y2="85" width="0.15" layer="21"/>
+<wire x1="36.75" y1="85" x2="36.75" y2="83.5" width="0.15" layer="21"/>
+<wire x1="36.75" y1="83.5" x2="37.25" y2="83.5" width="0.15" layer="21"/>
+<wire x1="37.25" y1="83.5" x2="37.25" y2="85" width="0.15" layer="21"/>
 <polygon width="0.15" layer="21">
-<vertex x="36.25" y="84.5"/>
-<vertex x="36.25" y="83"/>
-<vertex x="35.75" y="83"/>
-<vertex x="35.75" y="84.5"/>
-</polygon>
-<polygon width="0.15" layer="21">
-<vertex x="38.25" y="80.5"/>
-<vertex x="38.25" y="79"/>
-<vertex x="37.75" y="79"/>
-<vertex x="37.75" y="80.5"/>
+<vertex x="36.25" y="85"/>
+<vertex x="36.25" y="83.5"/>
+<vertex x="35.75" y="83.5"/>
+<vertex x="35.75" y="85"/>
 </polygon>
 <polygon width="0.15" layer="21">
-<vertex x="37.25" y="80.5"/>
-<vertex x="37.25" y="79"/>
-<vertex x="36.75" y="79"/>
-<vertex x="36.75" y="80.5"/>
-</polygon>
-<wire x1="36.25" y1="80.5" x2="36.25" y2="79" width="0.15" layer="21"/>
-<wire x1="36.25" y1="79" x2="35.75" y2="79" width="0.15" layer="21"/>
-<wire x1="35.75" y1="79" x2="35.75" y2="80.5" width="0.15" layer="21"/>
-<wire x1="35.75" y1="80.5" x2="36.25" y2="80.5" width="0.15" layer="21"/>
-<polygon width="0.15" layer="21">
-<vertex x="36.25" y="76.5"/>
-<vertex x="36.25" y="75"/>
-<vertex x="35.75" y="75"/>
-<vertex x="35.75" y="76.5"/>
+<vertex x="38.25" y="81"/>
+<vertex x="38.25" y="79.5"/>
+<vertex x="37.75" y="79.5"/>
+<vertex x="37.75" y="81"/>
 </polygon>
 <polygon width="0.15" layer="21">
+<vertex x="37.25" y="81"/>
+<vertex x="37.25" y="79.5"/>
+<vertex x="36.75" y="79.5"/>
+<vertex x="36.75" y="81"/>
+</polygon>
+<wire x1="36.25" y1="81" x2="36.25" y2="79.5" width="0.15" layer="21"/>
+<wire x1="36.25" y1="79.5" x2="35.75" y2="79.5" width="0.15" layer="21"/>
+<wire x1="35.75" y1="79.5" x2="35.75" y2="81" width="0.15" layer="21"/>
+<wire x1="35.75" y1="81" x2="36.25" y2="81" width="0.15" layer="21"/>
+<polygon width="0.15" layer="21">
+<vertex x="36.25" y="77"/>
+<vertex x="36.25" y="75.5"/>
+<vertex x="35.75" y="75.5"/>
+<vertex x="35.75" y="77"/>
+</polygon>
+<polygon width="0.15" layer="21">
+<vertex x="38.25" y="76"/>
 <vertex x="38.25" y="75.5"/>
-<vertex x="38.25" y="75"/>
-<vertex x="36.75" y="75"/>
 <vertex x="36.75" y="75.5"/>
+<vertex x="36.75" y="76"/>
 </polygon>
-<wire x1="38.25" y1="76.5" x2="38.25" y2="76" width="0.15" layer="21"/>
-<wire x1="38.25" y1="76" x2="36.75" y2="76" width="0.15" layer="21"/>
-<wire x1="36.75" y1="76" x2="36.75" y2="76.5" width="0.15" layer="21"/>
-<wire x1="36.75" y1="76.5" x2="38.25" y2="76.5" width="0.15" layer="21"/>
-<wire x1="38.25" y1="72.5" x2="35.75" y2="72.5" width="0.15" layer="21"/>
-<wire x1="35.75" y1="72.5" x2="35.75" y2="72" width="0.15" layer="21"/>
-<wire x1="35.75" y1="72" x2="38.25" y2="72" width="0.15" layer="21"/>
-<wire x1="38.25" y1="72" x2="38.25" y2="72.5" width="0.15" layer="21"/>
+<wire x1="38.25" y1="77" x2="38.25" y2="76.5" width="0.15" layer="21"/>
+<wire x1="38.25" y1="76.5" x2="36.75" y2="76.5" width="0.15" layer="21"/>
+<wire x1="36.75" y1="76.5" x2="36.75" y2="77" width="0.15" layer="21"/>
+<wire x1="36.75" y1="77" x2="38.25" y2="77" width="0.15" layer="21"/>
+<wire x1="38.25" y1="73" x2="35.75" y2="73" width="0.15" layer="21"/>
+<wire x1="35.75" y1="73" x2="35.75" y2="72.5" width="0.15" layer="21"/>
+<wire x1="35.75" y1="72.5" x2="38.25" y2="72.5" width="0.15" layer="21"/>
+<wire x1="38.25" y1="72.5" x2="38.25" y2="73" width="0.15" layer="21"/>
 <polygon width="0.15" layer="21">
+<vertex x="38.25" y="72"/>
 <vertex x="38.25" y="71.5"/>
-<vertex x="38.25" y="71"/>
-<vertex x="35.75" y="71"/>
 <vertex x="35.75" y="71.5"/>
+<vertex x="35.75" y="72"/>
 </polygon>
-<text x="37" y="85.5" size="1" layer="25" align="center">Dual</text>
+<text x="37" y="86" size="1" layer="25" align="center">Dual Regulator</text>
 <text x="15" y="3" size="1" layer="25" align="center">IN</text>
-<text x="37" y="77.5" size="1" layer="25" align="center">Ard.</text>
-<text x="37" y="73.5" size="1" layer="25" align="center">D5V</text>
+<text x="37" y="78" size="1" layer="25" align="center">Arduino Only</text>
+<text x="37" y="74" size="1" layer="25" align="center">Direct 5V</text>
 <rectangle x1="21.5" y1="54.84" x2="22" y2="56.84" layer="21"/>
 <wire x1="8" y1="26.5" x2="8" y2="19.5" width="0.15" layer="22"/>
 <wire x1="79" y1="80" x2="80.5" y2="78.5" width="0" layer="20" curve="90"/>
@@ -294,7 +294,7 @@ Takachi
 PF10-4-10</text>
 <text x="40.5" y="20" size="1" layer="25" align="center">THRU</text>
 <text x="76" y="3" size="1" layer="25" align="center">OUT</text>
-<text x="37" y="81.5" size="1" layer="25" align="center">Single</text>
+<text x="37" y="82" size="1" layer="25" align="center">Single Regulator</text>
 <text x="85" y="23.04" size="1" layer="25" align="center-right">V+</text>
 <text x="85" y="17.96" size="1" layer="25" align="center-right">GND</text>
 <text x="85" y="20.5" size="1" layer="25" align="center-right">Vcc</text>
