@@ -26371,13 +26371,13 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
-<part name="J6" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_03" device="JST-PTH-VERT" package3d_urn="urn:adsk.eagle:package:38080/1"/>
+<part name="J6" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_03" device="JST-PTH-VERT" package3d_urn="urn:adsk.eagle:package:38080/1" value="LED"/>
 <part name="V/2" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD2" device="" package3d_urn="urn:adsk.eagle:package:30839/1"/>
 <part name="VO" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD2" device="" package3d_urn="urn:adsk.eagle:package:30839/1"/>
 <part name="A" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD2" device="" package3d_urn="urn:adsk.eagle:package:30839/1"/>
 <part name="B" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD2" device="" package3d_urn="urn:adsk.eagle:package:30839/1"/>
-<part name="SV3" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X7" device="" package3d_urn="urn:adsk.eagle:package:22478/2"/>
-<part name="SV2" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X10" device="" package3d_urn="urn:adsk.eagle:package:22405/2"/>
+<part name="SV3" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X7" device="" package3d_urn="urn:adsk.eagle:package:22478/2" value="Testport II"/>
+<part name="SV2" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X10" device="" package3d_urn="urn:adsk.eagle:package:22405/2" value="Backport II"/>
 </parts>
 <sheets>
 <sheet>
@@ -28154,19 +28154,18 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 </sheet>
 </sheets>
 <errors>
-<approved hash="104,1,190.5,213.36,U1,VDD,VCC,,,"/>
+<approved hash="104,1,200.66,213.36,U1,VDD,VCC,,,"/>
 <approved hash="104,1,241.3,203.2,IC2P,VSS,GND,,,"/>
 <approved hash="104,1,241.3,218.44,IC2P,VDD,VCC,,,"/>
 <approved hash="106,1,205.74,25.4,MO2RTN,,,,,"/>
 <approved hash="106,1,205.74,30.48,MO2SND,,,,,"/>
-<approved hash="106,1,312.42,139.7,MRX+,,,,,"/>
-<approved hash="106,1,312.42,134.62,MRX-,,,,,"/>
-<approved hash="106,1,312.42,147.32,MRXDTCT,,,,,"/>
-<approved hash="106,1,312.42,127,MTX+,,,,,"/>
-<approved hash="106,1,312.42,119.38,MTX-,,,,,"/>
+<approved hash="106,1,358.14,88.9,MRX+,,,,,"/>
+<approved hash="106,1,358.14,86.36,MRX-,,,,,"/>
+<approved hash="106,1,358.14,83.82,MTX+,,,,,"/>
+<approved hash="106,1,358.14,81.28,MTX-,,,,,"/>
+<approved hash="106,1,358.14,91.44,NDX,,,,,"/>
 <approved hash="106,1,342.9,144.78,VDD,,,,,"/>
 <approved hash="113,1,193.571,130.071,FRAME2,,,,,"/>
-<approved hash="113,1,316.632,160.02,SV2,,,,,"/>
 <approved hash="113,1,368.3,109.22,X4,,,,,"/>
 <approved hash="113,1,36.428,124.46,SV1,,,,,"/>
 <approved hash="113,1,342.9,124.46,X9,,,,,"/>
@@ -28174,11 +28173,13 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <approved hash="113,1,40.64,142.24,X14,,,,,"/>
 <approved hash="113,1,205.74,17.78,X5,,,,,"/>
 <approved hash="113,1,195.58,17.78,X8,,,,,"/>
-<approved hash="113,1,76.2,240.421,V+,,,,,"/>
-<approved hash="113,1,93.98,240.421,VIN,,,,,"/>
+<approved hash="113,1,76.2,242.961,V+,,,,,"/>
+<approved hash="113,1,93.98,242.961,VIN,,,,,"/>
 <approved hash="113,1,33.6127,199.73,J0,,,,,"/>
-<approved hash="113,1,316.632,246.38,SV3,,,,,"/>
-<approved hash="113,1,70.4427,21.6577,J6,,,,,"/>
+<approved hash="113,1,73.66,240.421,V/2,,,,,"/>
+<approved hash="113,1,96.52,240.421,VO,,,,,"/>
+<approved hash="113,1,104.14,217.561,A,,,,,"/>
+<approved hash="113,1,106.68,217.561,B,,,,,"/>
 </errors>
 </schematic>
 </drawing>
