@@ -147,26 +147,26 @@
 </layers>
 <board>
 <plain>
-<wire x1="77.5" y1="90" x2="13.5" y2="90" width="0" layer="20"/>
-<wire x1="13.5" y1="90" x2="12" y2="88.5" width="0" layer="20" curve="90"/>
-<wire x1="12" y1="88.5" x2="12" y2="80" width="0" layer="20"/>
-<wire x1="10.5" y1="78.5" x2="1.5" y2="78.5" width="0" layer="20"/>
-<wire x1="1.5" y1="78.5" x2="0" y2="77" width="0" layer="20" curve="90"/>
-<wire x1="0" y1="77" x2="0" y2="13" width="0" layer="20"/>
-<wire x1="0" y1="13" x2="1.5" y2="11.5" width="0" layer="20" curve="90"/>
-<wire x1="1.5" y1="11.5" x2="10.5" y2="11.5" width="0" layer="20"/>
-<wire x1="12" y1="10" x2="12" y2="1.5" width="0" layer="20"/>
-<wire x1="12" y1="1.5" x2="13.5" y2="0" width="0" layer="20" curve="90"/>
-<wire x1="13.5" y1="0" x2="77.5" y2="0" width="0" layer="20"/>
-<wire x1="77.5" y1="0" x2="79" y2="1.5" width="0" layer="20" curve="90"/>
-<wire x1="79" y1="1.5" x2="79" y2="10" width="0" layer="20"/>
-<wire x1="80.5" y1="11.5" x2="89.5" y2="11.5" width="0" layer="20"/>
-<wire x1="89.5" y1="11.5" x2="91" y2="13" width="0" layer="20" curve="90"/>
-<wire x1="91" y1="13" x2="91" y2="77" width="0" layer="20"/>
-<wire x1="91" y1="77" x2="89.5" y2="78.5" width="0" layer="20" curve="90"/>
-<wire x1="89.5" y1="78.5" x2="80.5" y2="78.5" width="0" layer="20"/>
-<wire x1="79" y1="80" x2="79" y2="88.5" width="0" layer="20"/>
-<wire x1="79" y1="88.5" x2="77.5" y2="90" width="0" layer="20" curve="90"/>
+<wire x1="78" y1="90" x2="13" y2="90" width="0" layer="20"/>
+<wire x1="13" y1="90" x2="12" y2="89" width="0" layer="20" curve="90"/>
+<wire x1="12" y1="89" x2="12" y2="80" width="0" layer="20"/>
+<wire x1="10.5" y1="78.5" x2="1" y2="78.5" width="0" layer="20"/>
+<wire x1="1" y1="78.5" x2="0" y2="77.5" width="0" layer="20" curve="90"/>
+<wire x1="0" y1="77.5" x2="0" y2="12.5" width="0" layer="20"/>
+<wire x1="0" y1="12.5" x2="1" y2="11.5" width="0" layer="20" curve="90"/>
+<wire x1="1" y1="11.5" x2="10.5" y2="11.5" width="0" layer="20"/>
+<wire x1="12" y1="10" x2="12" y2="1" width="0" layer="20"/>
+<wire x1="12" y1="1" x2="13" y2="0" width="0" layer="20" curve="90"/>
+<wire x1="13" y1="0" x2="78" y2="0" width="0" layer="20"/>
+<wire x1="78" y1="0" x2="79" y2="1" width="0" layer="20" curve="90"/>
+<wire x1="79" y1="1" x2="79" y2="10" width="0" layer="20"/>
+<wire x1="80.5" y1="11.5" x2="90" y2="11.5" width="0" layer="20"/>
+<wire x1="90" y1="11.5" x2="91" y2="12.5" width="0" layer="20" curve="90"/>
+<wire x1="91" y1="12.5" x2="91" y2="77.5" width="0" layer="20"/>
+<wire x1="91" y1="77.5" x2="90" y2="78.5" width="0" layer="20" curve="90"/>
+<wire x1="90" y1="78.5" x2="80.5" y2="78.5" width="0" layer="20"/>
+<wire x1="79" y1="80" x2="79" y2="89" width="0" layer="20"/>
+<wire x1="79" y1="89" x2="78" y2="90" width="0" layer="20" curve="90"/>
 <hole x="76.5" y="76" drill="2.5"/>
 <circle x="14.5" y="14" radius="3" width="0.2" layer="42"/>
 <circle x="76.5" y="14" radius="3" width="0.2" layer="42"/>
@@ -181,7 +181,7 @@
 <wire x1="25.05" y1="46.95" x2="25.05" y2="66" width="0.15" layer="21" style="dashdot"/>
 <wire x1="25.05" y1="66" x2="6" y2="66" width="0.15" layer="21" style="dashdot"/>
 <wire x1="6" y1="66" x2="6" y2="46.95" width="0.15" layer="21" style="dashdot"/>
-<text x="7" y="69" size="1" layer="25" align="center">2.5.1-RC</text>
+<text x="7" y="69" size="1" layer="25" align="center">2.5.2-RC</text>
 <text x="26" y="63.46" size="1" layer="25" rot="R90" align="center">SD</text>
 <text x="26" y="60.92" size="1" layer="25" rot="R90" align="center">SC</text>
 <text x="26" y="53.3" size="1" layer="25" rot="R90" align="center">5V</text>
