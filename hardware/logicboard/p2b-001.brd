@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="2" display="yes" altdistance="50" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="2" display="yes" altdistance="50" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -444,12 +444,12 @@ PF10-4-10</text>
 <text x="70.39" y="47" size="1" layer="25" rot="R90" align="center">OUT2</text>
 <text x="67.85" y="53" size="1" layer="25" rot="R90" align="center">4</text>
 <text x="70.39" y="53" size="1" layer="25" rot="R90" align="center">5</text>
-<hole x="65.66" y="25.25" drill="0.5"/>
-<hole x="65.66" y="22.71" drill="0.5"/>
-<hole x="68.2" y="25.25" drill="0.5"/>
-<hole x="68.2" y="22.71" drill="0.5"/>
-<hole x="70.74" y="25.25" drill="0.5"/>
-<hole x="70.74" y="22.71" drill="0.5"/>
+<hole x="65.66" y="25.25" drill="0.65"/>
+<hole x="65.66" y="22.71" drill="0.65"/>
+<hole x="68.2" y="25.25" drill="0.65"/>
+<hole x="68.2" y="22.71" drill="0.65"/>
+<hole x="70.74" y="25.25" drill="0.65"/>
+<hole x="70.74" y="22.71" drill="0.65"/>
 <circle x="65.66" y="25.25" radius="0.5" width="0.15" layer="41"/>
 <circle x="65.66" y="22.71" radius="0.5" width="0.15" layer="41"/>
 <circle x="68.2" y="22.71" radius="0.5" width="0.15" layer="41"/>
