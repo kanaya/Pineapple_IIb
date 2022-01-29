@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="2" display="yes" altdistance="50" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="2" display="yes" altdistance="50" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -480,6 +480,11 @@ PF10-4-10</text>
 <wire x1="66.08" y1="72.5" x2="68.62" y2="72.5" width="0.15" layer="21" curve="180"/>
 <wire x1="68.62" y1="73" x2="68.62" y2="72.5" width="0.15" layer="21"/>
 <wire x1="66.08" y1="73" x2="66.08" y2="72.5" width="0.15" layer="21"/>
+<wire x1="64.39" y1="26" x2="72.01" y2="26" width="0.15" layer="22"/>
+<wire x1="72.01" y1="26" x2="72.01" y2="22" width="0.15" layer="22"/>
+<wire x1="72.01" y1="22" x2="64.39" y2="22" width="0.15" layer="22"/>
+<wire x1="64.39" y1="22" x2="64.39" y2="26" width="0.15" layer="22"/>
+<text x="68.2" y="24" size="1" layer="26" rot="MR0" align="center">dummy</text>
 </plain>
 <libraries>
 <library name="SparkFun-DiscreteSemi" urn="urn:adsk.eagle:library:514">
@@ -5922,6 +5927,18 @@ design rules under a new name.</description>
 <wire x1="44.577" y1="57.8358" x2="44.62" y2="57.88" width="0.3048" layer="1"/>
 <via x="54.7116" y="26.67" extent="1-16" drill="0.3048"/>
 <via x="37.338" y="55.8546" extent="1-16" drill="0.3048"/>
+<polygon width="0.2" layer="1">
+<vertex x="-1" y="-1"/>
+<vertex x="92" y="-1"/>
+<vertex x="92" y="91"/>
+<vertex x="-1" y="91"/>
+</polygon>
+<polygon width="0.2" layer="16">
+<vertex x="-2" y="-2"/>
+<vertex x="93" y="-2"/>
+<vertex x="93" y="92"/>
+<vertex x="-2" y="92"/>
+</polygon>
 </signal>
 <signal name="VCC" class="2">
 <contactref element="IC1" pad="14"/>
