@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="2" display="yes" altdistance="50" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="2" display="yes" altdistance="50" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -518,6 +518,10 @@ PF10-4-10</text>
 <text x="46.75" y="52.08" size="1" layer="25" align="center">M</text>
 <text x="46.75" y="44.46" size="1" layer="25" align="center">O</text>
 <text x="46.75" y="41.92" size="1" layer="25" align="center">2</text>
+<text x="61" y="70" size="1" layer="25" align="center">1</text>
+<text x="63.5" y="71" size="1" layer="25" align="center">3</text>
+<text x="55.92" y="70" size="1" layer="25" align="center">0</text>
+<text x="68.58" y="71" size="1" layer="25" align="center">2</text>
 </plain>
 <libraries>
 <library name="SparkFun-DiscreteSemi" urn="urn:adsk.eagle:library:514">
