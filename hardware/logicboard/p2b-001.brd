@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="2" display="yes" altdistance="50" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="2" display="yes" altdistance="50" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -288,7 +288,6 @@ Module (12708)</text>
 <rectangle x1="29.5" y1="23" x2="30" y2="25" layer="21"/>
 <rectangle x1="29.5" y1="27" x2="30" y2="29" layer="21"/>
 <rectangle x1="29.5" y1="30" x2="30" y2="32" layer="21"/>
-<rectangle x1="29.5" y1="33" x2="30" y2="35" layer="21"/>
 <text x="1" y="15" size="1" layer="25" align="center-left">Designed for
 Takachi
 PF10-4-10</text>
@@ -463,8 +462,8 @@ PF10-4-10</text>
 <circle x="68.2" y="22.71" radius="0.5" width="0.15" layer="42"/>
 <circle x="70.74" y="22.71" radius="0.5" width="0.15" layer="42"/>
 <text x="68.2" y="24" size="1" layer="25" align="center">dummy</text>
-<text x="65" y="59.5" size="1" layer="25" rot="R90" align="center">7406</text>
-<text x="65" y="70.5" size="1" layer="25" rot="R90" align="center">4066</text>
+<text x="51" y="59.5" size="1" layer="25" rot="R90" align="center">7406</text>
+<text x="51" y="70.5" size="1" layer="25" rot="R90" align="center">4066</text>
 <text x="48.5" y="39.5" size="1" layer="25" align="center">472</text>
 <text x="48.5" y="56" size="1" layer="25" align="center">I/O</text>
 <text x="48.5" y="57.92" size="1" layer="25" align="center">103</text>
@@ -485,6 +484,40 @@ PF10-4-10</text>
 <wire x1="72.01" y1="22" x2="64.39" y2="22" width="0.15" layer="22"/>
 <wire x1="64.39" y1="22" x2="64.39" y2="26" width="0.15" layer="22"/>
 <text x="68.2" y="24" size="1" layer="26" rot="MR0" align="center">dummy</text>
+<text x="51" y="47" size="1" layer="25" rot="R90" align="center">221</text>
+<text x="37" y="43" size="1" layer="25" align="center">Arduino Micro</text>
+<text x="13" y="69" size="1" layer="25" rot="R90" align="center">472</text>
+<text x="37" y="34" size="1" layer="25" align="center">102</text>
+<text x="37" y="37" size="1" layer="25" align="center">473</text>
+<text x="48" y="30.5" size="1" layer="25" align="center">102</text>
+<text x="48" y="33.5" size="1" layer="25" align="center">L0</text>
+<text x="48" y="36.5" size="1" layer="25" align="center">L1</text>
+<text x="26" y="21" size="1" layer="25" align="center">22u</text>
+<text x="21.5" y="20" size="1" layer="25" align="center-left">470n</text>
+<text x="30" y="34" size="1" layer="25" rot="R90" align="bottom-center">100n</text>
+<text x="30" y="20" size="1" layer="25" align="center-right">1u</text>
+<wire x1="20.75" y1="28" x2="20.75" y2="20" width="0.15" layer="21"/>
+<wire x1="30.75" y1="31" x2="30.75" y2="20" width="0.15" layer="21"/>
+<wire x1="30.75" y1="20" x2="30" y2="20" width="0.15" layer="21"/>
+<wire x1="30.75" y1="31" x2="30" y2="31" width="0.15" layer="21"/>
+<wire x1="21.5" y1="28" x2="20.75" y2="28" width="0.15" layer="21"/>
+<wire x1="21.5" y1="20" x2="20.75" y2="20" width="0.15" layer="21"/>
+<text x="45.5" y="40" size="1" layer="25" rot="R90" align="center">103</text>
+<text x="76.5" y="67.5" size="1" layer="25" align="center">104</text>
+<text x="73" y="67.5" size="1" layer="25" align="center">103</text>
+<text x="76.5" y="59.5" size="1" layer="25" rot="R90" align="center">103</text>
+<text x="34.5" y="40" size="1" layer="25" rot="R90" align="center">103</text>
+<text x="71.5" y="34.5" size="1" layer="25" rot="R90" align="center">103</text>
+<text x="46.75" y="65.42" size="1" layer="25" align="center">1</text>
+<text x="46.75" y="67.96" size="1" layer="25" align="center">0</text>
+<text x="46.75" y="62.88" size="1" layer="25" align="center">2</text>
+<text x="46.75" y="60.34" size="1" layer="25" align="center">3</text>
+<text x="46.75" y="70.5" size="1" layer="25" align="center">A</text>
+<text x="46.75" y="47" size="1" layer="25" align="center">T</text>
+<text x="46.75" y="49.54" size="1" layer="25" align="center">I</text>
+<text x="46.75" y="52.08" size="1" layer="25" align="center">M</text>
+<text x="46.75" y="44.46" size="1" layer="25" align="center">O</text>
+<text x="46.75" y="41.92" size="1" layer="25" align="center">2</text>
 </plain>
 <libraries>
 <library name="SparkFun-DiscreteSemi" urn="urn:adsk.eagle:library:514">
@@ -5487,7 +5520,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="26" y="30" size="0.8128" layer="27" ratio="10" rot="R180" align="bottom-center"/>
 </element>
 <element name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C025-024X044" package3d_urn="urn:adsk.eagle:package:23630/1" value="100n" x="26" y="34" smashed="yes">
-<attribute name="NAME" x="23" y="35" size="1" layer="25" ratio="10" rot="R90" align="center"/>
+<attribute name="NAME" x="22" y="34" size="1" layer="25" ratio="10" rot="R90" align="center"/>
 <attribute name="POPULARITY" value="56" x="26" y="34" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="26" y="34" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="26" y="36" size="0.8128" layer="27" ratio="10" rot="R180" align="bottom-center"/>
@@ -5507,7 +5540,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="26" y="22" size="0.8128" layer="27" ratio="10" align="bottom-center"/>
 </element>
 <element name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C050-024X044" package3d_urn="urn:adsk.eagle:package:23643/1" value="1u" x="26" y="31" smashed="yes">
-<attribute name="NAME" x="23" y="33" size="1" layer="25" ratio="10" rot="R90" align="center"/>
+<attribute name="NAME" x="22" y="31" size="1" layer="25" ratio="10" rot="R90" align="center"/>
 <attribute name="POPULARITY" value="33" x="26" y="31" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="26" y="31" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="26" y="29" size="0.8128" layer="27" ratio="10" align="bottom-center"/>
@@ -5616,7 +5649,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="57.444" y="33.865" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="J7" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="DIN5-RA-PTH" package3d_urn="urn:adsk.eagle:package:38294/1" value="DIN5" x="26" y="0" smashed="yes">
-<attribute name="NAME" x="26" y="20" size="1" layer="25" ratio="20" align="center"/>
+<attribute name="NAME" x="16" y="16" size="1" layer="25" ratio="20" align="center"/>
 <attribute name="PROD_ID" value="CONN-09481" x="26" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="24.73" y="3.937" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
@@ -5626,7 +5659,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="44.23" y="3.937" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
 <element name="J9" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="DIN5-RA-PTH" package3d_urn="urn:adsk.eagle:package:38294/1" value="DIN5" x="65" y="0" smashed="yes">
-<attribute name="NAME" x="75" y="18" size="1" layer="25" ratio="20" align="center"/>
+<attribute name="NAME" x="75" y="16" size="1" layer="25" ratio="20" align="center"/>
 <attribute name="PROD_ID" value="CONN-09481" x="65" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="63.73" y="3.937" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
@@ -5670,7 +5703,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="79.167" y="68.722" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="J6" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="JST-3-PTH-VERT" package3d_urn="urn:adsk.eagle:package:38080/1" value="LED" x="75" y="64.5" smashed="yes">
-<attribute name="NAME" x="75" y="67" size="1" layer="25" ratio="20" align="bottom-center"/>
+<attribute name="NAME" x="70" y="65" size="1" layer="25" ratio="20" rot="R90" align="center"/>
 <attribute name="PROD_ID" value="CONN-13230" x="75" y="64.5" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="73.349" y="61.198" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
