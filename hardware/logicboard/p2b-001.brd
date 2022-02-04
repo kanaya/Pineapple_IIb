@@ -8,8 +8,8 @@
 </settings>
 <grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="2" display="yes" altdistance="50" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -368,8 +368,7 @@ PF10-4-10</text>
 <wire x1="64.04" y1="32.5" x2="63.04" y2="33" width="0.15" layer="21"/>
 <wire x1="63.04" y1="33.5" x2="63.04" y2="32.5" width="0.15" layer="21"/>
 <text x="63.54" y="34.5" size="1" layer="25" align="center">LED00</text>
-<text x="83" y="71.54" size="1" layer="25" rot="R90" align="top-center">0</text>
-<text x="83" y="66.46" size="1" layer="25" rot="R90" align="top-center">1</text>
+<text x="79" y="71.54" size="1" layer="25" rot="R90" align="bottom-center">L0</text>
 <rectangle x1="78.5" y1="68" x2="79" y2="70" layer="21"/>
 <hole x="74.5" y="85.5" drill="2.7"/>
 <hole x="49.5" y="85.5" drill="2.7"/>
@@ -527,6 +526,8 @@ PF10-4-10</text>
 <circle x="8.54" y="63.46" radius="2.6" width="0.15" layer="42"/>
 <circle x="22.51" y="49.49" radius="2.6" width="0.15" layer="41"/>
 <circle x="22.51" y="49.49" radius="2.6" width="0.15" layer="42"/>
+<rectangle x1="8.5" y1="30.5" x2="9" y2="32.5" layer="21"/>
+<rectangle x1="25" y1="36" x2="27" y2="36.5" layer="21"/>
 </plain>
 <libraries>
 <library name="SparkFun-DiscreteSemi" urn="urn:adsk.eagle:library:514">
@@ -5529,7 +5530,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="26" y="30" size="0.8128" layer="27" ratio="10" rot="R180" align="bottom-center"/>
 </element>
 <element name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C025-024X044" package3d_urn="urn:adsk.eagle:package:23630/1" value="100n" x="26" y="34" smashed="yes">
-<attribute name="NAME" x="26" y="36" size="1" layer="25" ratio="10" align="center"/>
+<attribute name="NAME" x="23" y="35" size="1" layer="25" ratio="10" align="center"/>
 <attribute name="POPULARITY" value="56" x="26" y="34" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="26" y="34" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="26" y="36" size="0.8128" layer="27" ratio="10" rot="R180" align="bottom-center"/>
