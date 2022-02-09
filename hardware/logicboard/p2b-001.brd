@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="2" display="yes" altdistance="50" altunitdist="mil" altunit="mil"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="2" display="yes" altdistance="50" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
@@ -288,7 +288,7 @@ Module (12708)</text>
 <rectangle x1="29.5" y1="23" x2="30" y2="25" layer="21"/>
 <rectangle x1="29.5" y1="27" x2="30" y2="29" layer="21"/>
 <rectangle x1="29.5" y1="30" x2="30" y2="32" layer="21"/>
-<text x="1" y="15" size="1" layer="25" align="center-left">Designed for
+<text x="0.5" y="14.5" size="1" layer="25" align="center-left">Designed for
 Takachi
 PF10-4-10</text>
 <text x="40.5" y="20" size="1" layer="25" align="center">THRU</text>
@@ -376,7 +376,7 @@ PF10-4-10</text>
 <circle x="49.5" y="85.5" radius="2" width="0.2" layer="41"/>
 <circle x="74.5" y="85.5" radius="2" width="0.2" layer="42"/>
 <circle x="49.5" y="85.5" radius="2" width="0.2" layer="42"/>
-<text x="79" y="14" size="1" layer="25" align="center-left">4-M2.3</text>
+<text x="76.5" y="17.5" size="1" layer="25" align="center">4-M2.3</text>
 <wire x1="44" y1="28.5" x2="42.5" y2="28.5" width="0.15" layer="21"/>
 <wire x1="42.5" y1="28.5" x2="42.5" y2="27" width="0.15" layer="21"/>
 <wire x1="42.5" y1="21" x2="42.5" y2="19.5" width="0.15" layer="21"/>
