@@ -16,7 +16,7 @@
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
@@ -489,8 +489,8 @@ PF10-4-10</text>
 <text x="37" y="34" size="1" layer="25" align="center">102</text>
 <text x="37" y="37" size="1" layer="25" align="center">473</text>
 <text x="48" y="30.5" size="1" layer="25" align="center">102</text>
-<text x="48" y="33.5" size="1" layer="25" align="center">L0</text>
-<text x="48" y="36.5" size="1" layer="25" align="center">L1</text>
+<text x="48" y="33.5" size="1" layer="25" align="center">102</text>
+<text x="48" y="36.5" size="1" layer="25" align="center">102</text>
 <text x="26" y="21" size="1" layer="25" align="center">22u</text>
 <text x="21.5" y="20" size="1" layer="25" align="center-left">470n</text>
 <text x="30" y="34" size="1" layer="25" rot="R90" align="bottom-center">100n</text>
