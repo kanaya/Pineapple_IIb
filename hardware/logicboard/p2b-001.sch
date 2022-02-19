@@ -26501,7 +26501,7 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <part name="SUPPLY19" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC/2" device=""/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC/2" device=""/>
-<part name="JPX" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
+<part name="JP7" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2" value="MNTR"/>
 </parts>
 <sheets>
 <sheet>
@@ -26919,7 +26919,7 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <instance part="P+4" gate="G$1" x="241.3" y="124.46" smashed="yes">
 <attribute name="VALUE" x="238.76" y="121.92" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="JPX" gate="A" x="30.48" y="165.1" smashed="yes" rot="MR0">
+<instance part="JP7" gate="A" x="30.48" y="165.1" smashed="yes" rot="MR0">
 <attribute name="NAME" x="36.83" y="173.355" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="36.83" y="157.48" size="1.778" layer="96" rot="MR0"/>
 </instance>
@@ -27149,7 +27149,7 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <label x="342.9" y="76.2" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JPX" gate="A" pin="1"/>
+<pinref part="JP7" gate="A" pin="1"/>
 <wire x1="33.02" y1="170.18" x2="40.64" y2="170.18" width="0.1524" layer="91"/>
 <label x="40.64" y="170.18" size="0.8128" layer="95" xref="yes"/>
 </segment>
@@ -27278,7 +27278,7 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <wire x1="172.72" y1="30.48" x2="170.18" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="JPX" gate="A" pin="2"/>
+<pinref part="JP7" gate="A" pin="2"/>
 <wire x1="33.02" y1="167.64" x2="40.64" y2="167.64" width="0.1524" layer="91"/>
 <label x="40.64" y="167.64" size="0.8128" layer="95" xref="yes"/>
 </segment>
@@ -27530,7 +27530,7 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <label x="317.5" y="195.58" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JPX" gate="A" pin="4"/>
+<pinref part="JP7" gate="A" pin="4"/>
 <wire x1="33.02" y1="162.56" x2="40.64" y2="162.56" width="0.1524" layer="91"/>
 <label x="40.64" y="162.56" size="0.8128" layer="95" xref="yes"/>
 </segment>
@@ -27562,7 +27562,7 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <label x="317.5" y="193.04" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JPX" gate="A" pin="3"/>
+<pinref part="JP7" gate="A" pin="3"/>
 <wire x1="33.02" y1="165.1" x2="40.64" y2="165.1" width="0.1524" layer="91"/>
 <label x="40.64" y="165.1" size="0.8128" layer="95" xref="yes"/>
 </segment>
@@ -28296,11 +28296,7 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <approved hash="113,1,342.9,124.46,X9,,,,,"/>
 <approved hash="113,1,342.9,121.92,X10,,,,,"/>
 <approved hash="113,1,40.64,142.24,X14,,,,,"/>
-<approved hash="113,1,76.2,242.961,V+,,,,,"/>
-<approved hash="113,1,93.98,242.961,VIN,,,,,"/>
 <approved hash="113,1,33.6127,199.73,J0,,,,,"/>
-<approved hash="113,1,71.12,242.961,V/2,,,,,"/>
-<approved hash="113,1,99.06,242.961,VO,,,,,"/>
 <approved hash="113,1,104.14,217.561,A,,,,,"/>
 <approved hash="113,1,106.68,217.561,B,,,,,"/>
 </errors>
