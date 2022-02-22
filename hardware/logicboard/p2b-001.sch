@@ -29715,8 +29715,8 @@ CA 95125 (408)494-0330&lt;br&gt;
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC/2" device=""/>
 <part name="JP7" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2" value="MNTR"/>
 <part name="LCD1" library="AQM0802A-RN-GBW" deviceset="AQM0802A-RN-GBW" device=""/>
-<part name="R101" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M2012" package3d_urn="urn:adsk.eagle:package:23561/2"/>
-<part name="R102" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M2012" package3d_urn="urn:adsk.eagle:package:23561/2"/>
+<part name="R101" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M2012" package3d_urn="urn:adsk.eagle:package:23561/2" value="10k"/>
+<part name="R102" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M2012" package3d_urn="urn:adsk.eagle:package:23561/2" value="10k"/>
 <part name="SUPPLY20" library="supply2" deviceset="GND" device=""/>
 <part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="025-024X044" package3d_urn="urn:adsk.eagle:package:23630/1" value="100n"/>
 <part name="SUPPLY21" library="supply2" deviceset="GND" device=""/>
@@ -31499,11 +31499,6 @@ CA 95125 (408)494-0330&lt;br&gt;
 <approved hash="104,1,241.3,218.44,IC2P,VDD,VCC,,,"/>
 <approved hash="106,1,182.88,25.4,MO2RTN,,,,,"/>
 <approved hash="106,1,182.88,30.48,MO2SND,,,,,"/>
-<approved hash="106,1,358.14,88.9,MRX+,,,,,"/>
-<approved hash="106,1,358.14,86.36,MRX-,,,,,"/>
-<approved hash="106,1,358.14,83.82,MTX+,,,,,"/>
-<approved hash="106,1,358.14,81.28,MTX-,,,,,"/>
-<approved hash="106,1,358.14,91.44,NDX,,,,,"/>
 <approved hash="106,1,342.9,144.78,VDD,,,,,"/>
 <approved hash="113,1,193.571,130.071,FRAME2,,,,,"/>
 <approved hash="113,1,368.3,109.22,X4,,,,,"/>

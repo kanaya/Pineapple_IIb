@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="2" display="yes" altdistance="50" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="2" display="yes" altdistance="50" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -514,6 +514,12 @@ PF10-4-10</text>
 <wire x1="85" y1="45" x2="83" y2="45" width="0.15" layer="22"/>
 <wire x1="83" y1="45" x2="83" y2="49" width="0.15" layer="22"/>
 <text x="87" y="26" size="2" layer="25" align="center">+9V</text>
+<text x="84" y="36.5" size="1" layer="26" rot="MR0" align="center">2-103</text>
+<text x="70" y="43.38" size="1" layer="25" rot="R90" align="top-center">Akizuki LCD Module
+AQM0802A-RN-GBW</text>
+<text x="84.5" y="24" size="1" layer="25" rot="R90" align="center">1u</text>
+<text x="84.5" y="16.5" size="1" layer="25" rot="R90" align="center">1u</text>
+<rectangle x1="81.5" y1="27.5" x2="83.5" y2="28" layer="21"/>
 </plain>
 <libraries>
 <library name="SparkFun-DiscreteSemi" urn="urn:adsk.eagle:library:514">
@@ -5702,13 +5708,13 @@ design rules under a new name.</description>
 <attribute name="NAME" x="87" y="43.5" size="1" layer="25" rot="R90" align="center"/>
 <attribute name="VALUE" x="91" y="43.5" size="1" layer="27" rot="R90" align="center"/>
 </element>
-<element name="R101" library="rcl" library_urn="urn:adsk.eagle:library:334" package="M2012" package3d_urn="urn:adsk.eagle:package:23561/2" value="" x="84" y="47" smashed="yes" rot="MR90">
+<element name="R101" library="rcl" library_urn="urn:adsk.eagle:library:334" package="M2012" package3d_urn="urn:adsk.eagle:package:23561/2" value="10k" x="84" y="47" smashed="yes" rot="MR90">
 <attribute name="NAME" x="84" y="50" size="1" layer="26" rot="MR0" align="center"/>
 <attribute name="POPULARITY" value="0" x="84" y="47" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="84" y="47" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="81.46" y="45.73" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="R102" library="rcl" library_urn="urn:adsk.eagle:library:334" package="M2012" package3d_urn="urn:adsk.eagle:package:23561/2" value="" x="84" y="40" smashed="yes" rot="MR90">
+<element name="R102" library="rcl" library_urn="urn:adsk.eagle:library:334" package="M2012" package3d_urn="urn:adsk.eagle:package:23561/2" value="10k" x="84" y="40" smashed="yes" rot="MR90">
 <attribute name="NAME" x="84" y="43" size="1" layer="26" rot="MR0" align="center"/>
 <attribute name="POPULARITY" value="0" x="84" y="40" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="84" y="40" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -5970,6 +5976,18 @@ design rules under a new name.</description>
 <wire x1="44.6532" y1="57.8358" x2="45.9486" y2="56.5404" width="0.3048" layer="16"/>
 <wire x1="43.815" y1="40.005" x2="43.77" y2="40" width="0.3048" layer="16"/>
 <wire x1="44.6532" y1="57.8358" x2="44.62" y2="57.88" width="0.3048" layer="16"/>
+<polygon width="0.2" layer="1">
+<vertex x="-2" y="-2"/>
+<vertex x="92" y="-2"/>
+<vertex x="92" y="92"/>
+<vertex x="-2" y="92"/>
+</polygon>
+<polygon width="0.2" layer="16">
+<vertex x="-4" y="-4"/>
+<vertex x="94" y="-4"/>
+<vertex x="94" y="94"/>
+<vertex x="-4" y="94"/>
+</polygon>
 </signal>
 <signal name="VCC" class="2">
 <contactref element="IC1" pad="14"/>
