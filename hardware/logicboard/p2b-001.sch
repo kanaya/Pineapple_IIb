@@ -31462,29 +31462,32 @@ CA 95125 (408)494-0330&lt;br&gt;
 <label x="185.42" y="25.4" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="N$4" class="0">
+<net name="CAP1N" class="0">
 <segment>
 <pinref part="LCD1" gate="G$1" pin="3"/>
 <wire x1="332.74" y1="88.9" x2="358.14" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="C12" gate="G$1" pin="2"/>
+<label x="345.44" y="88.9" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="CAP1P" class="0">
 <segment>
 <pinref part="LCD1" gate="G$1" pin="4"/>
 <wire x1="358.14" y1="86.36" x2="322.58" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="322.58" y1="86.36" x2="322.58" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="322.58" y1="88.9" x2="325.12" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="C12" gate="G$1" pin="1"/>
+<label x="345.44" y="86.36" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$7" class="0">
+<net name="LCDVOUT" class="0">
 <segment>
 <wire x1="332.74" y1="93.98" x2="335.28" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="335.28" y1="93.98" x2="335.28" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="LCD1" gate="G$1" pin="2"/>
 <wire x1="335.28" y1="91.44" x2="358.14" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="C13" gate="G$1" pin="2"/>
+<label x="345.44" y="91.44" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
