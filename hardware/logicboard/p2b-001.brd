@@ -502,7 +502,7 @@ PF10-4-10</text>
 <text x="8.59" y="46" size="1" layer="25" align="center">SD</text>
 <rectangle x1="14.94" y1="50.5" x2="17.48" y2="51" layer="21"/>
 <text x="24.5" y="72" size="1" layer="25" align="center-right">Adafruit SSD1306</text>
-<text x="22.51" y="46" size="1" layer="25" align="center">MNTR</text>
+<text x="22.51" y="46" size="1" layer="25" align="center">DISP</text>
 <wire x1="23.5" y1="73" x2="25" y2="73" width="0.15" layer="21"/>
 <wire x1="25" y1="73" x2="25" y2="71.5" width="0.15" layer="21"/>
 <text x="26" y="49.49" size="1" layer="25" rot="R90" align="center">RTC</text>
