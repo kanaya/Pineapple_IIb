@@ -31190,11 +31190,6 @@ CA 95125 (408)494-0330&lt;br&gt;
 <label x="370.84" y="124.46" size="0.8128" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="3"/>
-<wire x1="73.66" y1="63.5" x2="76.2" y2="63.5" width="0.1524" layer="91"/>
-<label x="76.2" y="63.5" size="0.8128" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="JP2" gate="G$1" pin="4"/>
 <wire x1="40.64" y1="144.78" x2="43.18" y2="144.78" width="0.1524" layer="91"/>
 <label x="43.18" y="144.78" size="0.8128" layer="95" xref="yes"/>
@@ -31921,6 +31916,11 @@ CA 95125 (408)494-0330&lt;br&gt;
 <wire x1="269.24" y1="76.2" x2="269.24" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="RZ1**" gate="G$1" pin="1"/>
 <wire x1="269.24" y1="71.12" x2="271.78" y2="71.12" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="3"/>
+<wire x1="73.66" y1="63.5" x2="76.2" y2="63.5" width="0.1524" layer="91"/>
+<label x="76.2" y="63.5" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SDA3V" class="0">
