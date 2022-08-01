@@ -30079,6 +30079,7 @@ CA 95125 (408)494-0330&lt;br&gt;
 <part name="VDDBRIDGE" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M2012" package3d_urn="urn:adsk.eagle:package:23561/2" value="0"/>
 <part name="VCCBRIDGE**" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M2012" package3d_urn="urn:adsk.eagle:package:23561/2" value="Inf"/>
 <part name="SUPPLY25" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
+<part name="J42" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="JST-PTH-2" package3d_urn="urn:adsk.eagle:package:38053/1" value="RLY2"/>
 </parts>
 <sheets>
 <sheet>
@@ -30562,6 +30563,10 @@ CA 95125 (408)494-0330&lt;br&gt;
 </instance>
 <instance part="SUPPLY25" gate="G$1" x="312.42" y="114.3" smashed="yes">
 <attribute name="VALUE" x="312.42" y="119.38" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="J42" gate="G$1" x="111.76" y="48.26" smashed="yes">
+<attribute name="VALUE" x="109.22" y="43.434" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="109.22" y="53.848" size="1.778" layer="95" font="vector"/>
 </instance>
 </instances>
 <busses>
@@ -31631,6 +31636,11 @@ CA 95125 (408)494-0330&lt;br&gt;
 <label x="99.06" y="50.8" size="0.8128" layer="95" xref="yes"/>
 <pinref part="J4" gate="G$1" pin="2"/>
 </segment>
+<segment>
+<wire x1="119.38" y1="50.8" x2="121.92" y2="50.8" width="0.1524" layer="91"/>
+<label x="121.92" y="50.8" size="0.8128" layer="95" xref="yes"/>
+<pinref part="J42" gate="G$1" pin="2"/>
+</segment>
 </net>
 <net name="RLYOUT" class="0">
 <segment>
@@ -31643,6 +31653,11 @@ CA 95125 (408)494-0330&lt;br&gt;
 <wire x1="96.52" y1="48.26" x2="99.06" y2="48.26" width="0.1524" layer="91"/>
 <label x="99.06" y="48.26" size="0.8128" layer="95" xref="yes"/>
 <pinref part="J4" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<wire x1="119.38" y1="48.26" x2="121.92" y2="48.26" width="0.1524" layer="91"/>
+<label x="121.92" y="48.26" size="0.8128" layer="95" xref="yes"/>
+<pinref part="J42" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="V+" class="4">
