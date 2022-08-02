@@ -30021,7 +30021,6 @@ CA 95125 (408)494-0330&lt;br&gt;
 <part name="SUPPLY5" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
 <part name="X14" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="PAD-N" device=""/>
 <part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X3" device="" package3d_urn="urn:adsk.eagle:package:22462/2" value="PWRSEL"/>
-<part name="J4" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="-JST-2MM-SMT" package3d_urn="urn:adsk.eagle:package:38042/1" value="RLY"/>
 <part name="J3" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="JST-PTH-2" package3d_urn="urn:adsk.eagle:package:38053/1" value="Vcc"/>
 <part name="J5" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_05" device="JST-VERT" package3d_urn="urn:adsk.eagle:package:38111/1" value="SPI"/>
 <part name="RN4" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" deviceset="8R-N" device="" package3d_urn="urn:adsk.eagle:package:922/2" value="220"/>
@@ -30080,6 +30079,7 @@ CA 95125 (408)494-0330&lt;br&gt;
 <part name="VCCBRIDGE**" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M2012" package3d_urn="urn:adsk.eagle:package:23561/2" value="Inf"/>
 <part name="SUPPLY25" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
 <part name="J42" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_03" device="JST-PTH" package3d_urn="urn:adsk.eagle:package:38069/1" value="RLY2"/>
+<part name="J4" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_03" device="JST-SMD" package3d_urn="urn:adsk.eagle:package:38075/1" value="3-PIN SMD"/>
 </parts>
 <sheets>
 <sheet>
@@ -30338,10 +30338,6 @@ CA 95125 (408)494-0330&lt;br&gt;
 <attribute name="NAME" x="77.47" y="239.395" size="1.778" layer="95"/>
 <attribute name="VALUE" x="77.47" y="226.06" size="1.778" layer="96"/>
 </instance>
-<instance part="J4" gate="G$1" x="88.9" y="48.26" smashed="yes">
-<attribute name="VALUE" x="86.36" y="43.434" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="86.36" y="53.848" size="1.778" layer="95" font="vector"/>
-</instance>
 <instance part="J3" gate="G$1" x="88.9" y="63.5" smashed="yes">
 <attribute name="VALUE" x="86.36" y="58.674" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="86.36" y="69.088" size="1.778" layer="95" font="vector"/>
@@ -30567,6 +30563,10 @@ CA 95125 (408)494-0330&lt;br&gt;
 <instance part="J42" gate="J$1" x="111.76" y="50.8" smashed="yes">
 <attribute name="VALUE" x="111.76" y="43.18" size="1.778" layer="96" align="bottom-center"/>
 <attribute name="NAME" x="111.76" y="55.88" size="1.778" layer="95" align="bottom-center"/>
+</instance>
+<instance part="J4" gate="J$1" x="88.9" y="50.8" smashed="yes">
+<attribute name="VALUE" x="86.36" y="43.434" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="86.36" y="56.388" size="1.778" layer="95" font="vector"/>
 </instance>
 </instances>
 <busses>
@@ -31586,6 +31586,11 @@ CA 95125 (408)494-0330&lt;br&gt;
 <label x="121.92" y="53.34" size="0.8128" layer="95" xref="yes"/>
 <pinref part="J42" gate="J$1" pin="3"/>
 </segment>
+<segment>
+<pinref part="J4" gate="J$1" pin="3"/>
+<wire x1="96.52" y1="53.34" x2="99.06" y2="53.34" width="0.1524" layer="91"/>
+<label x="99.06" y="53.34" size="0.8128" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="VOUT" class="4">
 <segment>
@@ -31640,7 +31645,7 @@ CA 95125 (408)494-0330&lt;br&gt;
 <segment>
 <wire x1="96.52" y1="50.8" x2="99.06" y2="50.8" width="0.1524" layer="91"/>
 <label x="99.06" y="50.8" size="0.8128" layer="95" xref="yes"/>
-<pinref part="J4" gate="G$1" pin="2"/>
+<pinref part="J4" gate="J$1" pin="2"/>
 </segment>
 <segment>
 <wire x1="119.38" y1="50.8" x2="121.92" y2="50.8" width="0.1524" layer="91"/>
@@ -31658,7 +31663,7 @@ CA 95125 (408)494-0330&lt;br&gt;
 <segment>
 <wire x1="96.52" y1="48.26" x2="99.06" y2="48.26" width="0.1524" layer="91"/>
 <label x="99.06" y="48.26" size="0.8128" layer="95" xref="yes"/>
-<pinref part="J4" gate="G$1" pin="1"/>
+<pinref part="J4" gate="J$1" pin="1"/>
 </segment>
 <segment>
 <wire x1="119.38" y1="48.26" x2="121.92" y2="48.26" width="0.1524" layer="91"/>
