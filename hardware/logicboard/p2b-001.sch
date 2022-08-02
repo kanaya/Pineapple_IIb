@@ -31188,46 +31188,6 @@ CA 95125 (408)494-0330&lt;br&gt;
 <label x="266.7" y="111.76" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="SCL3V" class="0">
-<segment>
-<pinref part="MC1" gate="G$1" pin="3"/>
-<wire x1="368.3" y1="124.46" x2="370.84" y2="124.46" width="0.1524" layer="91"/>
-<label x="370.84" y="124.46" size="0.8128" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="JP2" gate="G$1" pin="4"/>
-<wire x1="40.64" y1="144.78" x2="43.18" y2="144.78" width="0.1524" layer="91"/>
-<label x="43.18" y="144.78" size="0.8128" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="RN3" gate="1" pin="3"/>
-<wire x1="167.64" y1="147.32" x2="170.18" y2="147.32" width="0.1524" layer="91"/>
-<label x="170.18" y="147.32" size="0.8128" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="SV3" gate="A" pin="9"/>
-<wire x1="325.12" y1="193.04" x2="317.5" y2="193.04" width="0.1524" layer="91"/>
-<label x="317.5" y="193.04" size="0.8128" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="JP7" gate="A" pin="3"/>
-<wire x1="33.02" y1="165.1" x2="40.64" y2="165.1" width="0.1524" layer="91"/>
-<label x="40.64" y="165.1" size="0.8128" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="Q1" gate="NMOS" pin="S"/>
-<pinref part="R102" gate="G$1" pin="1"/>
-<wire x1="284.48" y1="76.2" x2="281.94" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="284.48" y1="78.74" x2="284.48" y2="76.2" width="0.1524" layer="91"/>
-<junction x="284.48" y="76.2"/>
-<pinref part="RZ1**" gate="G$1" pin="2"/>
-<wire x1="281.94" y1="71.12" x2="284.48" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="284.48" y1="71.12" x2="284.48" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="LCD1" gate="G$1" pin="8"/>
-<wire x1="358.14" y1="76.2" x2="284.48" y2="76.2" width="0.1524" layer="91"/>
-<label x="345.44" y="76.2" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="RLY" class="0">
 <segment>
 <pinref part="MC1" gate="G$1" pin="4"/>
@@ -31948,6 +31908,31 @@ CA 95125 (408)494-0330&lt;br&gt;
 <wire x1="73.66" y1="63.5" x2="76.2" y2="63.5" width="0.1524" layer="91"/>
 <label x="76.2" y="63.5" size="0.8128" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="MC1" gate="G$1" pin="3"/>
+<wire x1="368.3" y1="124.46" x2="370.84" y2="124.46" width="0.1524" layer="91"/>
+<label x="370.84" y="124.46" size="0.8128" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="JP2" gate="G$1" pin="4"/>
+<wire x1="40.64" y1="144.78" x2="43.18" y2="144.78" width="0.1524" layer="91"/>
+<label x="43.18" y="144.78" size="0.8128" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="RN3" gate="1" pin="3"/>
+<wire x1="167.64" y1="147.32" x2="170.18" y2="147.32" width="0.1524" layer="91"/>
+<label x="170.18" y="147.32" size="0.8128" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="SV3" gate="A" pin="9"/>
+<wire x1="325.12" y1="193.04" x2="317.5" y2="193.04" width="0.1524" layer="91"/>
+<label x="317.5" y="193.04" size="0.8128" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="JP7" gate="A" pin="3"/>
+<wire x1="33.02" y1="165.1" x2="40.64" y2="165.1" width="0.1524" layer="91"/>
+<label x="40.64" y="165.1" size="0.8128" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="SDA3V" class="0">
 <segment>
@@ -31988,6 +31973,21 @@ CA 95125 (408)494-0330&lt;br&gt;
 <wire x1="312.42" y1="99.06" x2="312.42" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="VDDBRIDGE" gate="G$1" pin="1"/>
 <wire x1="320.04" y1="99.06" x2="320.04" y2="93.98" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="SCL3V" class="0">
+<segment>
+<pinref part="Q1" gate="NMOS" pin="S"/>
+<pinref part="R102" gate="G$1" pin="1"/>
+<wire x1="284.48" y1="76.2" x2="281.94" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="284.48" y1="78.74" x2="284.48" y2="76.2" width="0.1524" layer="91"/>
+<junction x="284.48" y="76.2"/>
+<pinref part="RZ1**" gate="G$1" pin="2"/>
+<wire x1="281.94" y1="71.12" x2="284.48" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="284.48" y1="71.12" x2="284.48" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="LCD1" gate="G$1" pin="8"/>
+<wire x1="358.14" y1="76.2" x2="284.48" y2="76.2" width="0.1524" layer="91"/>
+<label x="345.44" y="76.2" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
