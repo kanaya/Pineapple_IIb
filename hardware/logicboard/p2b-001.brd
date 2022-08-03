@@ -477,7 +477,7 @@ PF10-4-10</text>
 <text x="63.5" y="71" size="1" layer="25" align="center">3</text>
 <text x="55.92" y="70" size="1" layer="25" align="center">0</text>
 <text x="68.58" y="71" size="1" layer="25" align="center">2</text>
-<text x="61" y="41" size="1" layer="25" align="center">LTC1485 OR MAX3468</text>
+<text x="61" y="41" size="1" layer="25" align="center">TLP2630</text>
 <circle x="8.54" y="63.46" radius="2.6" width="0.15" layer="41"/>
 <circle x="8.54" y="63.46" radius="2.6" width="0.15" layer="42"/>
 <circle x="22.51" y="49.49" radius="2.6" width="0.15" layer="41"/>
