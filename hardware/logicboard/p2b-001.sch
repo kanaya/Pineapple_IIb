@@ -30081,6 +30081,7 @@ CA 95125 (408)494-0330&lt;br&gt;
 <part name="J4***" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_03" device="JST-PTH" package3d_urn="urn:adsk.eagle:package:38069/1" value="RLY2"/>
 <part name="RZ4***" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M2012" package3d_urn="urn:adsk.eagle:package:23561/2" value="Inf"/>
 <part name="RZ3***" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M2012" package3d_urn="urn:adsk.eagle:package:23561/2" value="Inf"/>
+<part name="JRST" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="" package3d_urn="urn:adsk.eagle:package:38039/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -30573,6 +30574,10 @@ CA 95125 (408)494-0330&lt;br&gt;
 <attribute name="NAME" x="135.6614" y="217.17" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="140.462" y="217.17" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="JRST" gate="G$1" x="111.76" y="66.04" smashed="yes">
+<attribute name="VALUE" x="109.22" y="61.214" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="109.22" y="71.628" size="1.778" layer="95" font="vector"/>
+</instance>
 </instances>
 <busses>
 <bus name="ANLG[0..3]">
@@ -30794,6 +30799,11 @@ CA 95125 (408)494-0330&lt;br&gt;
 <wire x1="335.28" y1="58.42" x2="335.28" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="SUPPLY21" gate="GND" pin="GND"/>
 </segment>
+<segment>
+<pinref part="JRST" gate="G$1" pin="1"/>
+<wire x1="119.38" y1="66.04" x2="121.92" y2="66.04" width="0.1524" layer="91"/>
+<label x="121.92" y="66.04" size="0.8128" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="VCC" class="2">
 <segment>
@@ -30980,6 +30990,11 @@ CA 95125 (408)494-0330&lt;br&gt;
 <pinref part="MC1" gate="G$1" pin="R@1"/>
 <wire x1="342.9" y1="116.84" x2="340.36" y2="116.84" width="0.1524" layer="91"/>
 <label x="340.36" y="116.84" size="0.8128" layer="95" rot="MR0" xref="yes"/>
+</segment>
+<segment>
+<pinref part="JRST" gate="G$1" pin="2"/>
+<wire x1="119.38" y1="68.58" x2="121.92" y2="68.58" width="0.1524" layer="91"/>
+<label x="121.92" y="68.58" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="THS" class="0">
