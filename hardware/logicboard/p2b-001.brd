@@ -633,7 +633,7 @@ PF10-4-10</text>
 <wire x1="4" y1="55" x2="2" y2="55" width="0.15" layer="21"/>
 <wire x1="2" y1="55" x2="2" y2="51" width="0.15" layer="21"/>
 <text x="1" y="50.5" size="1" layer="25" rot="R90" align="center">FOR J4***</text>
-<text x="50.11" y="47" size="1" layer="25" rot="R90" align="center">L00</text>
+<text x="50.11" y="41" size="1" layer="25" align="center">LED00</text>
 <polygon width="0.15" layer="21">
 <vertex x="27.5" y="53.76"/>
 <vertex x="27.5" y="51.76"/>
@@ -646,6 +646,9 @@ PF10-4-10</text>
 <vertex x="46.5" y="56.84"/>
 <vertex x="46.5" y="58.84"/>
 </polygon>
+<text x="54" y="34.5" size="1" layer="25" rot="R90" align="center">IN</text>
+<text x="50.11" y="39.5" size="1" layer="25" align="center">monitors</text>
+<text x="50.11" y="38" size="1" layer="25" align="center">Vcc/2</text>
 </plain>
 <libraries>
 <library name="SparkFun-DiscreteSemi" urn="urn:adsk.eagle:library:514">
@@ -5865,12 +5868,12 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="8" x="55.5" y="24" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="46.61" y="19.555" size="1.27" layer="27"/>
 </element>
-<element name="JP7" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X04" package3d_urn="urn:adsk.eagle:package:22407/2" value="MNTR" x="12.5" y="49" smashed="yes" rot="R180">
+<element name="DISP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X04" package3d_urn="urn:adsk.eagle:package:22407/2" value="MNTR" x="12.5" y="49" smashed="yes" rot="R180">
 <attribute name="NAME" x="12.5" y="51" size="1" layer="25" ratio="10" align="center"/>
 <attribute name="POPULARITY" value="91" x="12.5" y="49" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="17.58" y="52.175" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="LCD1" library="AQM0802A-RN-GBW" package="AQM0802A-RN-GBW-FOOTPRINT" value="AQM0802A-RN-GBW" x="89" y="45" smashed="yes" rot="R90">
+<element name="DISP1" library="AQM0802A-RN-GBW" package="AQM0802A-RN-GBW-FOOTPRINT" value="AQM0802A-RN-GBW" x="89" y="45" smashed="yes" rot="R90">
 <attribute name="NAME" x="87" y="45" size="1" layer="25" rot="R90" align="center"/>
 <attribute name="VALUE" x="91" y="45" size="1" layer="27" rot="R90" align="center"/>
 </element>
@@ -6015,8 +6018,8 @@ design rules under a new name.</description>
 <contactref element="JP5" pad="1"/>
 <contactref element="J6" pad="2"/>
 <contactref element="SV3" pad="5"/>
-<contactref element="JP7" pad="1"/>
-<contactref element="LCD1" pad="6"/>
+<contactref element="DISP2" pad="1"/>
+<contactref element="DISP1" pad="6"/>
 <contactref element="C11" pad="2"/>
 <via x="26.8224" y="52.8066" extent="1-16" drill="0.3048"/>
 <via x="46.2534" y="59.5122" extent="1-16" drill="0.3048"/>
@@ -6301,7 +6304,7 @@ design rules under a new name.</description>
 <contactref element="RN4" pad="3"/>
 <contactref element="RN4" pad="5"/>
 <contactref element="RN4" pad="7"/>
-<contactref element="JP7" pad="2"/>
+<contactref element="DISP2" pad="2"/>
 <contactref element="R101" pad="2"/>
 <contactref element="R103" pad="2"/>
 <contactref element="VCCBRIDGE**" pad="2"/>
@@ -7236,7 +7239,7 @@ design rules under a new name.</description>
 <contactref element="JP2" pad="5"/>
 <contactref element="RN3" pad="2"/>
 <contactref element="SV3" pad="7"/>
-<contactref element="JP7" pad="4"/>
+<contactref element="DISP2" pad="4"/>
 <contactref element="Q2" pad="3"/>
 <contactref element="R103" pad="1"/>
 <contactref element="RZ2**" pad="1"/>
@@ -9558,7 +9561,7 @@ design rules under a new name.</description>
 <contactref element="RN4" pad="9"/>
 </signal>
 <signal name="CAP1N">
-<contactref element="LCD1" pad="3"/>
+<contactref element="DISP1" pad="3"/>
 <contactref element="C12" pad="2"/>
 <wire x1="88.9254" y1="41.6052" x2="88.9254" y2="41.9862" width="0.1524" layer="16"/>
 <wire x1="87.7062" y1="40.386" x2="88.9254" y2="41.6052" width="0.1524" layer="16"/>
@@ -9568,7 +9571,7 @@ design rules under a new name.</description>
 <wire x1="82.5246" y1="26.5938" x2="82.5" y2="26.54" width="0.1524" layer="16"/>
 </signal>
 <signal name="CAP1P">
-<contactref element="LCD1" pad="4"/>
+<contactref element="DISP1" pad="4"/>
 <contactref element="C12" pad="1"/>
 <wire x1="88.9254" y1="43.1292" x2="88.9254" y2="43.434" width="0.1524" layer="1"/>
 <wire x1="86.5632" y1="40.767" x2="88.9254" y2="43.1292" width="0.1524" layer="1"/>
@@ -9578,7 +9581,7 @@ design rules under a new name.</description>
 <wire x1="82.5246" y1="21.4884" x2="82.5" y2="21.46" width="0.1524" layer="1"/>
 </signal>
 <signal name="LCDVOUT">
-<contactref element="LCD1" pad="2"/>
+<contactref element="DISP1" pad="2"/>
 <contactref element="C13" pad="2"/>
 <wire x1="88.9254" y1="40.1574" x2="88.9254" y2="40.4622" width="0.1524" layer="16"/>
 <wire x1="88.011" y1="39.243" x2="88.9254" y2="40.1574" width="0.1524" layer="16"/>
@@ -9598,7 +9601,7 @@ design rules under a new name.</description>
 <contactref element="JP2" pad="4"/>
 <contactref element="RN3" pad="3"/>
 <contactref element="SV3" pad="9"/>
-<contactref element="JP7" pad="3"/>
+<contactref element="DISP2" pad="3"/>
 <via x="21.4122" y="57.3786" extent="1-16" drill="0.3048"/>
 <via x="30.1752" y="61.722" extent="1-16" drill="0.3048"/>
 <via x="58.674" y="19.05" extent="1-16" drill="0.3048"/>
@@ -9758,7 +9761,7 @@ design rules under a new name.</description>
 <via x="47.0916" y="45.7962" extent="1-16" drill="0.3048"/>
 </signal>
 <signal name="SDA3V">
-<contactref element="LCD1" pad="7"/>
+<contactref element="DISP1" pad="7"/>
 <contactref element="R104" pad="1"/>
 <contactref element="RZ2**" pad="2"/>
 <contactref element="Q2" pad="2"/>
@@ -9785,8 +9788,8 @@ design rules under a new name.</description>
 <via x="82.677" y="57.3024" extent="1-16" drill="0.3048"/>
 </signal>
 <signal name="VCC/VDD" class="2">
-<contactref element="LCD1" pad="5"/>
-<contactref element="LCD1" pad="9"/>
+<contactref element="DISP1" pad="5"/>
+<contactref element="DISP1" pad="9"/>
 <contactref element="C11" pad="1"/>
 <contactref element="C13" pad="1"/>
 <contactref element="VCCBRIDGE**" pad="1"/>
@@ -9833,7 +9836,7 @@ design rules under a new name.</description>
 <contactref element="Q1" pad="2"/>
 <contactref element="R102" pad="1"/>
 <contactref element="RZ1**" pad="2"/>
-<contactref element="LCD1" pad="8"/>
+<contactref element="DISP1" pad="8"/>
 <via x="86.0298" y="37.0332" extent="1-16" drill="0.3048"/>
 <via x="86.5632" y="55.7784" extent="1-16" drill="0.3048"/>
 <via x="83.058" y="41.3766" extent="1-16" drill="0.3048"/>
