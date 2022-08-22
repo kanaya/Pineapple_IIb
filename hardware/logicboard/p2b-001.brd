@@ -450,7 +450,7 @@ PF10-4-10</text>
 <text x="68.2" y="24" size="1" layer="26" rot="MR0" align="center">dummy</text>
 <text x="48" y="51" size="1" layer="25" rot="R90" align="center">221</text>
 <text x="37" y="43" size="1" layer="25" align="center">Arduino Micro</text>
-<text x="25" y="74" size="1" layer="25" align="center">2-472</text>
+<text x="15.5" y="67" size="1" layer="25" align="center">2-472</text>
 <text x="37" y="34" size="1" layer="25" align="center">102</text>
 <text x="37" y="37" size="1" layer="25" align="center">473</text>
 <text x="48" y="30.5" size="1" layer="25" align="center">102</text>
@@ -615,7 +615,7 @@ PF10-4-10</text>
 <text x="28" y="50.26" size="1" layer="26" rot="MR0" align="center-left">Vin</text>
 <text x="28" y="57.88" size="1" layer="26" rot="MR0" align="center-left">Vcc</text>
 <text x="28" y="83.28" size="1" layer="26" rot="MR0" align="center-left">Vdd</text>
-<text x="17.96" y="74" size="1" layer="25" align="center">RX</text>
+<text x="17.96" y="74" size="1" layer="25" align="center">IN</text>
 <text x="48.5" y="83" size="1" layer="25" align="center-left">2-M2.5</text>
 <text x="1" y="31" size="1" layer="25" align="center-left">GND</text>
 <text x="1" y="58.27" size="1" layer="25" align="center">V</text>
@@ -633,7 +633,6 @@ PF10-4-10</text>
 <wire x1="4" y1="55" x2="2" y2="55" width="0.15" layer="21"/>
 <wire x1="2" y1="55" x2="2" y2="51" width="0.15" layer="21"/>
 <text x="1" y="50.5" size="1" layer="25" rot="R90" align="center">FOR J4***</text>
-<text x="50.11" y="41" size="1" layer="25" align="center">LED00</text>
 <polygon width="0.15" layer="21">
 <vertex x="27.5" y="53.76"/>
 <vertex x="27.5" y="51.76"/>
@@ -647,6 +646,14 @@ PF10-4-10</text>
 <vertex x="46.5" y="58.84"/>
 </polygon>
 <text x="54" y="34.5" size="1" layer="25" rot="R90" align="center">IN</text>
+<text x="19.23" y="67" size="1" layer="25" align="center">I2C</text>
+<text x="20.5" y="74" size="1" layer="25" align="center">T</text>
+<text x="23.04" y="74" size="1" layer="25" align="center">O</text>
+<text x="25.58" y="74" size="1" layer="25" align="center">O2</text>
+<text x="50.11" y="41" size="1" layer="25" align="center">LED00</text>
+<text x="32" y="74" size="1" layer="25" align="center-left">Do not forget</text>
+<text x="32" y="72" size="1" layer="25" align="center-left">installing RN2</text>
+<text x="32" y="70" size="1" layer="25" align="center-left">to use MIDI</text>
 <text x="50.11" y="39.5" size="1" layer="25" align="center">monitors</text>
 <text x="50.11" y="38" size="1" layer="25" align="center">Vcc/2</text>
 </plain>
