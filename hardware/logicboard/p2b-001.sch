@@ -34373,14 +34373,14 @@ CA 95125 (408)494-0330&lt;br&gt;
 <wire x1="205.74" y1="106.68" x2="205.74" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="MORTNRAW" class="0">
 <segment>
 <pinref part="RN4" gate="D" pin="1"/>
 <pinref part="IC1" gate="E" pin="O"/>
 <wire x1="172.72" y1="38.1" x2="167.64" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="MTRTNRAW" class="0">
 <segment>
 <pinref part="RN4" gate="F" pin="1"/>
 <pinref part="IC1" gate="D" pin="O"/>
@@ -34394,7 +34394,7 @@ CA 95125 (408)494-0330&lt;br&gt;
 <label x="185.42" y="30.48" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="N$6" class="0">
+<net name="MO2RTNRAW" class="0">
 <segment>
 <pinref part="RN4" gate="H" pin="1"/>
 <pinref part="IC1" gate="F" pin="O"/>
