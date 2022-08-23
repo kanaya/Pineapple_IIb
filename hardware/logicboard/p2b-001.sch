@@ -33419,11 +33419,6 @@ CA 95125 (408)494-0330&lt;br&gt;
 <junction x="53.34" y="233.68"/>
 </segment>
 <segment>
-<wire x1="96.52" y1="66.04" x2="101.6" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="J3" gate="G$1" pin="2"/>
-<label x="101.6" y="66.04" size="0.8128" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="RN3" gate="1" pin="1"/>
 <pinref part="SUPPLY19" gate="G$1" pin="VCC"/>
 <wire x1="167.64" y1="167.64" x2="167.64" y2="165.1" width="0.1524" layer="91"/>
@@ -34162,6 +34157,11 @@ CA 95125 (408)494-0330&lt;br&gt;
 <wire x1="137.16" y1="213.36" x2="137.16" y2="215.9" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="213.36" x2="132.08" y2="213.36" width="0.1524" layer="91"/>
 <junction x="132.08" y="213.36"/>
+</segment>
+<segment>
+<wire x1="96.52" y1="66.04" x2="101.6" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="J3" gate="G$1" pin="2"/>
+<label x="101.6" y="66.04" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="RLYOUT" class="0">
