@@ -426,18 +426,10 @@ PF10-4-10</text>
 <text x="51" y="64.5" size="1" layer="25" rot="R90" align="center">7406</text>
 <text x="51" y="70.5" size="1" layer="25" rot="R90" align="center">4066</text>
 <text x="48.5" y="63" size="1" layer="25" align="center">I/O</text>
-<wire x1="61" y1="68" x2="61" y2="68.5" width="0.15" layer="21"/>
-<wire x1="58.46" y1="68" x2="58.46" y2="68.5" width="0.15" layer="21"/>
-<wire x1="61" y1="68.5" x2="58.46" y2="68.5" width="0.15" layer="21" curve="180"/>
-<wire x1="55.92" y1="68.5" x2="53.38" y2="68.5" width="0.15" layer="21" curve="180"/>
-<wire x1="55.92" y1="68" x2="55.92" y2="68.5" width="0.15" layer="21"/>
-<wire x1="53.38" y1="68" x2="53.38" y2="68.5" width="0.15" layer="21"/>
-<wire x1="61" y1="73" x2="61" y2="72.5" width="0.15" layer="21"/>
-<wire x1="63.54" y1="73" x2="63.54" y2="72.5" width="0.15" layer="21"/>
-<wire x1="61" y1="72.5" x2="63.54" y2="72.5" width="0.15" layer="21" curve="180"/>
-<wire x1="66.08" y1="72.5" x2="68.62" y2="72.5" width="0.15" layer="21" curve="180"/>
-<wire x1="68.62" y1="73" x2="68.62" y2="72.5" width="0.15" layer="21"/>
-<wire x1="66.08" y1="73" x2="66.08" y2="72.5" width="0.15" layer="21"/>
+<wire x1="58.46" y1="68" x2="58.46" y2="69" width="0.15" layer="21"/>
+<wire x1="55.92" y1="68" x2="55.92" y2="69" width="0.15" layer="21"/>
+<wire x1="63.54" y1="73" x2="63.54" y2="72" width="0.15" layer="21"/>
+<wire x1="66.08" y1="73" x2="66.08" y2="72" width="0.15" layer="21"/>
 <wire x1="64.39" y1="26" x2="72.01" y2="26" width="0.15" layer="22"/>
 <wire x1="72.01" y1="26" x2="72.01" y2="22" width="0.15" layer="22"/>
 <wire x1="72.01" y1="22" x2="64.39" y2="22" width="0.15" layer="22"/>
@@ -468,10 +460,7 @@ PF10-4-10</text>
 <text x="46.75" y="67.88" size="1" layer="25" align="center">2</text>
 <text x="46.75" y="65.34" size="1" layer="25" align="center">3</text>
 <text x="46.75" y="75.5" size="1" layer="25" align="center">A</text>
-<text x="61" y="70" size="1" layer="25" align="center">1</text>
-<text x="63.5" y="71" size="1" layer="25" align="center">3</text>
-<text x="55.92" y="70" size="1" layer="25" align="center">0</text>
-<text x="68.58" y="71" size="1" layer="25" align="center">2</text>
+<text x="61" y="69" size="1" layer="25" align="center">A1</text>
 <text x="61" y="41" size="1" layer="25" align="center">TLP2630</text>
 <circle x="8.54" y="63.46" radius="2.6" width="0.15" layer="41"/>
 <circle x="8.54" y="63.46" radius="2.6" width="0.15" layer="42"/>
@@ -759,6 +748,21 @@ PF10-4-10</text>
 <wire x1="53.65" y1="52.5" x2="53.65" y2="41.5" width="0.15" layer="22" style="shortdash"/>
 <wire x1="53.65" y1="41.5" x2="51.65" y2="41.5" width="0.15" layer="22" style="shortdash"/>
 <wire x1="51.65" y1="41.5" x2="51.65" y2="52.5" width="0.15" layer="22" style="shortdash"/>
+<text x="53.38" y="69" size="1" layer="25" align="center">A0</text>
+<text x="61" y="72" size="1" layer="25" align="center">A3</text>
+<text x="68.62" y="72" size="1" layer="25" align="center">A2</text>
+<wire x1="55.92" y1="69" x2="54.42" y2="69" width="0.15" layer="21"/>
+<wire x1="58.46" y1="69" x2="59.96" y2="69" width="0.15" layer="21"/>
+<wire x1="63.54" y1="72" x2="62.04" y2="72" width="0.15" layer="21"/>
+<wire x1="66.08" y1="72" x2="67.58" y2="72" width="0.15" layer="21"/>
+<wire x1="54.42" y1="69" x2="55" y2="69.5" width="0.15" layer="21"/>
+<wire x1="54.42" y1="69" x2="55" y2="68.5" width="0.15" layer="21"/>
+<wire x1="59.5" y1="69.5" x2="59.96" y2="69" width="0.15" layer="21"/>
+<wire x1="59.96" y1="69" x2="59.5" y2="68.5" width="0.15" layer="21"/>
+<wire x1="62.5" y1="72.5" x2="62.04" y2="72" width="0.15" layer="21"/>
+<wire x1="62.04" y1="72" x2="62.5" y2="71.5" width="0.15" layer="21"/>
+<wire x1="67" y1="72.5" x2="67.58" y2="72" width="0.15" layer="21"/>
+<wire x1="67.58" y1="72" x2="67" y2="71.5" width="0.15" layer="21"/>
 </plain>
 <libraries>
 <library name="SparkFun-DiscreteSemi" urn="urn:adsk.eagle:library:514">
