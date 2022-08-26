@@ -32627,6 +32627,7 @@ CA 95125 (408)494-0330&lt;br&gt;
 <part name="RZ3**" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M2012" package3d_urn="urn:adsk.eagle:package:23561/2" value="Inf"/>
 <part name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_04" device="JST-PTH" package3d_urn="urn:adsk.eagle:package:38101/1"/>
 <part name="J5" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_06" device="1.27MM" package3d_urn="urn:adsk.eagle:package:38131/1"/>
+<part name="J10" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_03" device="JST-PTH-VERT" package3d_urn="urn:adsk.eagle:package:38080/1" value="1-Wire"/>
 </parts>
 <sheets>
 <sheet>
@@ -33119,6 +33120,10 @@ CA 95125 (408)494-0330&lt;br&gt;
 <attribute name="VALUE" x="86.36" y="5.334" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="86.36" y="25.908" size="1.778" layer="95" font="vector"/>
 </instance>
+<instance part="J10" gate="J$1" x="121.92" y="68.58" smashed="yes">
+<attribute name="VALUE" x="121.92" y="60.96" size="1.778" layer="96" align="bottom-center"/>
+<attribute name="NAME" x="121.92" y="73.66" size="1.778" layer="95" align="bottom-center"/>
+</instance>
 </instances>
 <busses>
 <bus name="ANLG[0..3]">
@@ -33340,6 +33345,11 @@ CA 95125 (408)494-0330&lt;br&gt;
 <label x="99.06" y="22.86" size="0.8128" layer="95" xref="yes"/>
 <pinref part="J5" gate="G$1" pin="6"/>
 </segment>
+<segment>
+<pinref part="J10" gate="J$1" pin="1"/>
+<wire x1="129.54" y1="66.04" x2="134.62" y2="66.04" width="0.1524" layer="91"/>
+<label x="134.62" y="66.04" size="0.8128" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="VCC" class="2">
 <segment>
@@ -33479,6 +33489,11 @@ CA 95125 (408)494-0330&lt;br&gt;
 <label x="99.06" y="12.7" size="0.8128" layer="95" xref="yes"/>
 <pinref part="J5" gate="G$1" pin="2"/>
 </segment>
+<segment>
+<pinref part="J10" gate="J$1" pin="3"/>
+<wire x1="129.54" y1="71.12" x2="134.62" y2="71.12" width="0.1524" layer="91"/>
+<label x="134.62" y="71.12" size="0.8128" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="MIDIINSND" class="0">
 <segment>
@@ -33553,6 +33568,11 @@ CA 95125 (408)494-0330&lt;br&gt;
 <pinref part="SV3" gate="A" pin="6"/>
 <wire x1="332.74" y1="198.12" x2="340.36" y2="198.12" width="0.1524" layer="91"/>
 <label x="340.36" y="198.12" size="0.8128" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J10" gate="J$1" pin="2"/>
+<wire x1="129.54" y1="68.58" x2="134.62" y2="68.58" width="0.1524" layer="91"/>
+<label x="134.62" y="68.58" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="ANLG3" class="3">
