@@ -8,8 +8,8 @@
 </settings>
 <grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="2" display="yes" altdistance="50" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -176,12 +176,12 @@
 <circle x="76.5" y="76" radius="2.6" width="0.2" layer="41"/>
 <circle x="14.5" y="14" radius="2.6" width="0.2" layer="41"/>
 <circle x="76.5" y="14" radius="2.6" width="0.2" layer="41"/>
-<text x="8" y="72" size="1.27" layer="25" rot="R90" align="center">Pineapple IIb</text>
+<text x="9" y="71" size="1.27" layer="25" rot="R45" align="center">Pineapple IIb</text>
 <wire x1="6" y1="46.95" x2="25.05" y2="46.95" width="0.15" layer="21" style="dashdot"/>
 <wire x1="25.05" y1="46.95" x2="25.05" y2="66" width="0.15" layer="21" style="dashdot"/>
 <wire x1="25.05" y1="66" x2="6" y2="66" width="0.15" layer="21" style="dashdot"/>
 <wire x1="6" y1="66" x2="6" y2="46.95" width="0.15" layer="21" style="dashdot"/>
-<text x="10" y="72" size="1" layer="25" rot="R90" align="center">2.6.6-RC</text>
+<text x="10" y="70" size="1" layer="25" rot="R45" align="center">2.6.6-RC</text>
 <text x="26" y="63.46" size="1" layer="25" rot="R90" align="center">SD</text>
 <text x="26" y="60.92" size="1" layer="25" rot="R90" align="center">SC</text>
 <text x="26" y="53.3" size="1" layer="25" rot="R90" align="center">5V</text>
@@ -534,7 +534,7 @@ AQM0802A-RN-GBW</text>
 <text x="75" y="62" size="1" layer="25" align="center">G</text>
 <text x="73" y="62" size="1" layer="25" align="center">L1</text>
 <text x="77" y="62" size="1" layer="25" align="center">L0</text>
-<text x="1" y="70" size="1" layer="25" align="center">I</text>
+<text x="1" y="70" size="1" layer="25" rot="R90" align="center">I</text>
 <text x="65" y="88" size="1" layer="25" align="center-left">NC</text>
 <text x="59" y="88" size="1" layer="25" align="center-right">NO</text>
 <wire x1="65" y1="90" x2="65" y2="83" width="0.3" layer="22"/>
@@ -581,11 +581,11 @@ AQM0802A-RN-GBW</text>
 <text x="28" y="83.28" size="1" layer="26" rot="MR0" align="center-left">Vdd</text>
 <text x="48.5" y="83" size="1" layer="25" align="center-left">2-M2.5</text>
 <text x="1" y="31" size="1" layer="25" align="center-left">GND</text>
-<text x="1" y="71.27" size="1" layer="25" align="center">V</text>
-<text x="1" y="72.54" size="1" layer="25" align="center">C</text>
-<text x="1" y="73.81" size="1" layer="25" align="center">O</text>
-<text x="1" y="75.08" size="1" layer="25" align="center">R</text>
-<text x="1" y="76.35" size="1" layer="25" align="center">G</text>
+<text x="1" y="71.27" size="1" layer="25" rot="R90" align="center">V</text>
+<text x="1" y="72.54" size="1" layer="25" rot="R90" align="center">C</text>
+<text x="1" y="73.81" size="1" layer="25" rot="R90" align="center">O</text>
+<text x="1" y="75.08" size="1" layer="25" rot="R90" align="center">R</text>
+<text x="1" y="76.35" size="1" layer="25" rot="R90" align="center">G</text>
 <text x="5" y="75.715" size="1" layer="25" rot="R90" align="center">RST</text>
 <wire x1="2" y1="47" x2="4" y2="47" width="0.15" layer="21"/>
 <wire x1="4" y1="47" x2="4" y2="51" width="0.15" layer="21"/>
@@ -6417,6 +6417,18 @@ design rules under a new name.</description>
 <via x="18.288" y="75.5142" extent="1-16" drill="0.3048"/>
 <via x="26.67" y="50.0634" extent="1-16" drill="0.3048"/>
 <via x="87.4014" y="39.8526" extent="1-16" drill="0.3048"/>
+<polygon width="0.2" layer="1">
+<vertex x="-1" y="-1"/>
+<vertex x="92" y="-1"/>
+<vertex x="92" y="91"/>
+<vertex x="-1" y="91"/>
+</polygon>
+<polygon width="0.2" layer="16">
+<vertex x="-2" y="-2"/>
+<vertex x="93" y="-2"/>
+<vertex x="93" y="92"/>
+<vertex x="-2" y="92"/>
+</polygon>
 </signal>
 <signal name="VCC" class="2">
 <contactref element="IC1" pad="14"/>
