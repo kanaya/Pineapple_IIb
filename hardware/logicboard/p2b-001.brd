@@ -6,20 +6,20 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="2" display="yes" altdistance="50" altunitdist="mil" altunit="mil"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="2" display="yes" altdistance="50" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -409,11 +409,6 @@ PF10-4-10</text>
 <wire x1="55.92" y1="68" x2="55.92" y2="69" width="0.15" layer="21"/>
 <wire x1="63.54" y1="73" x2="63.54" y2="72" width="0.15" layer="21"/>
 <wire x1="66.08" y1="73" x2="66.08" y2="72" width="0.15" layer="21"/>
-<wire x1="64.39" y1="26" x2="72.01" y2="26" width="0.15" layer="22"/>
-<wire x1="72.01" y1="26" x2="72.01" y2="22" width="0.15" layer="22"/>
-<wire x1="72.01" y1="22" x2="64.39" y2="22" width="0.15" layer="22"/>
-<wire x1="64.39" y1="22" x2="64.39" y2="26" width="0.15" layer="22"/>
-<text x="68.2" y="24" size="1" layer="26" rot="MR0" align="center">dummy</text>
 <text x="48" y="51" size="1" layer="25" rot="R90" align="center">221</text>
 <text x="37" y="43" size="1" layer="25" align="center">Arduino Micro</text>
 <text x="15.5" y="67" size="1" layer="25" align="center">2-472</text>
@@ -756,6 +751,10 @@ MIDI OUT</text>
 <wire x1="43" y1="75" x2="31" y2="75" width="0.15" layer="21" style="shortdash"/>
 <text x="75.82" y="29" size="1" layer="25" align="center">PWRSEL</text>
 <text x="79" y="48" size="1" layer="25" align="center">PWRSEL</text>
+<text x="85.5" y="20" size="1" layer="26" rot="MR90" align="center">PWR</text>
+<text x="1.5" y="73.175" size="1" layer="26" rot="MR90" align="center">SPI</text>
+<text x="3.5" y="34" size="1" layer="26" rot="MR90" align="center">GPIO</text>
+<text x="87" y="69" size="1" layer="26" rot="MR90" align="center">MKR</text>
 </plain>
 <libraries>
 <library name="SparkFun-DiscreteSemi" urn="urn:adsk.eagle:library:514">
