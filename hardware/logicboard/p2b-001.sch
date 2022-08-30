@@ -34506,7 +34506,6 @@ CA 95125 (408)494-0330&lt;br&gt;
 </sheet>
 </sheets>
 <errors>
-<approved hash="104,1,200.66,213.36,U1,VDD,VCC,,,"/>
 <approved hash="104,1,241.3,203.2,IC2P,VSS,GND,,,"/>
 <approved hash="104,1,241.3,218.44,IC2P,VDD,VCC,,,"/>
 <approved hash="106,1,182.88,25.4,MO2RTN,,,,,"/>
