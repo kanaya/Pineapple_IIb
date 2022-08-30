@@ -9122,91 +9122,6 @@ Based on the following sources:
 </deviceset>
 </devicesets>
 </library>
-<library name="SparkFun-Sensors">
-<description>&lt;h3&gt;SparkFun Sensors&lt;/h3&gt;
-This library contains sensors- accelerometers, gyros, compasses, magnetometers, light sensors, imagers, temp sensors, etc.
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application.
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="TO-92-AMMO">
-<description>&lt;h3&gt;TO-92 3-Pin PTH AMMO package&lt;/h3&gt;
-&lt;p&gt;&lt;a href=""&gt;Datasheet&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Specifications:
-&lt;ul&gt;
-&lt;li&gt;Pin Count: 3&lt;/li&gt;
-&lt;li&gt;Dimensions:  3.68 x 4.83 x 4.83 mm&lt;/li&gt;
-&lt;li&gt;Pitch: 2.54 mm&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Devices Using:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;DS18B20&lt;/li&gt;
-&lt;/ul&gt;</description>
-<wire x1="-2.0946" y1="-1.651" x2="-0.7863" y2="2.5485" width="0.2032" layer="21" curve="-111.098957" cap="flat"/>
-<wire x1="0.7863" y1="2.5484" x2="2.0945" y2="-1.651" width="0.2032" layer="21" curve="-111.09954" cap="flat"/>
-<wire x1="-2.0945" y1="-1.651" x2="2.0945" y2="-1.651" width="0.2032" layer="21"/>
-<wire x1="-0.635" y1="2.54" x2="0.635" y2="2.54" width="0.2032" layer="21" curve="-25.057615"/>
-<wire x1="0.635" y1="2.54" x2="1.905" y2="1.905" width="0.2032" layer="21" curve="-28.072487"/>
-<wire x1="-1.905" y1="1.905" x2="0.635" y2="2.54" width="0.2032" layer="21" curve="-53.130102"/>
-<pad name="3" x="2.54" y="0" drill="0.8128" diameter="1.8796"/>
-<pad name="2" x="0" y="0" drill="0.8128" diameter="1.8796"/>
-<pad name="1" x="-2.54" y="0" drill="0.8128" diameter="1.8796"/>
-<text x="0" y="-1.778" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center">&gt;NAME</text>
-<text x="0" y="2.794" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center">&gt;VALUE</text>
-</package>
-</packages>
-<symbols>
-<symbol name="DS18B20">
-<description>&lt;h3&gt;Dallas/Maxim DS18B20 1-Wire Temperature Sensor&lt;/h3&gt;
-&lt;p&gt;The DS18B20 reports degrees C with 9 to 12-bit precision, -55C to 125C (+/-0.5C). Each sensor has a unique 64-Bit Serial number etched into it - allows for a huge number of sensors to be used on one data bus.&lt;/p&gt;</description>
-<wire x1="-7.62" y1="7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-7.62" x2="5.08" y2="7.62" width="0.254" layer="94"/>
-<wire x1="5.08" y1="7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
-<pin name="DQ" x="-10.16" y="0" length="short"/>
-<pin name="VDD" x="-10.16" y="5.08" length="short" direction="pwr"/>
-<pin name="GND" x="-10.16" y="-5.08" length="short" direction="pwr"/>
-<text x="-7.62" y="7.874" size="1.778" layer="95" font="vector">&gt;Name</text>
-<text x="-7.62" y="-7.874" size="1.778" layer="96" font="vector" align="top-left">&gt;Value</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="DS18B20" prefix="U">
-<description>&lt;h3&gt;Dallas/Maxim DS18B20 1-Wire Temperature Sensor&lt;/h3&gt;
-&lt;p&gt;The DS18B20 reports degrees C with 9 to 12-bit precision, -55C to 125C (+/-0.5C). Each sensor has a unique 64-Bit Serial number etched into it - allows for a huge number of sensors to be used on one data bus.&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;
-&lt;h4&gt;SparkFun Products&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/245"&gt;One Wire Digital Temperature Sensor - DS18B20&lt;/a&gt; (SEN-00245)&lt;/li&gt;
-&lt;/ul&gt;</description>
-<gates>
-<gate name="G$1" symbol="DS18B20" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="TO-92-AMMO">
-<connects>
-<connect gate="G$1" pin="DQ" pad="2"/>
-<connect gate="G$1" pin="GND" pad="1"/>
-<connect gate="G$1" pin="VDD" pad="3"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="STORE_ID" value="SEN-00245" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="relay" urn="urn:adsk.eagle:library:339">
 <description>&lt;b&gt;Relays&lt;/b&gt;&lt;p&gt;
 &lt;ul&gt;
@@ -32526,7 +32441,6 @@ CA 95125 (408)494-0330&lt;br&gt;
 <part name="SUPPLY13" library="supply2" deviceset="GND" device=""/>
 <part name="V1" library="v-reg" library_urn="urn:adsk.eagle:library:409" deviceset="78XXL" device="" package3d_urn="urn:adsk.eagle:package:30361/1" value="5V"/>
 <part name="IC1" library="74xx-us" library_urn="urn:adsk.eagle:library:88" deviceset="74*06" device="N" package3d_urn="urn:adsk.eagle:package:16407/2" technology="LS"/>
-<part name="U1" library="SparkFun-Sensors" deviceset="DS18B20" device=""/>
 <part name="K1" library="relay" library_urn="urn:adsk.eagle:library:339" deviceset="G5V1" device="" package3d_urn="urn:adsk.eagle:package:24341/1"/>
 <part name="T1" library="transistor" library_urn="urn:adsk.eagle:library:402" deviceset="2SC1815" device="" package3d_urn="urn:adsk.eagle:package:29929/2"/>
 <part name="D2" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="DIODE" device="-1N4148" package3d_urn="urn:adsk.eagle:package:38452/1" value=""/>
@@ -32628,6 +32542,7 @@ CA 95125 (408)494-0330&lt;br&gt;
 <part name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_04" device="JST-PTH" package3d_urn="urn:adsk.eagle:package:38101/1" value="GPIO"/>
 <part name="J5" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_06" device="1.27MM" package3d_urn="urn:adsk.eagle:package:38131/1" value="SPI"/>
 <part name="J10" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_03" device="JST-PTH-VERT" package3d_urn="urn:adsk.eagle:package:38080/1" value="1-Wire"/>
+<part name="J4" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_04" device="1.27MM" package3d_urn="urn:adsk.eagle:package:38086/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -32689,10 +32604,6 @@ CA 95125 (408)494-0330&lt;br&gt;
 <instance part="IC1" gate="F" x="157.48" y="25.4" smashed="yes">
 <attribute name="NAME" x="162.56" y="27.94" size="1.778" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="162.56" y="20.32" size="1.778" layer="96" align="bottom-center"/>
-</instance>
-<instance part="U1" gate="G$1" x="190.5" y="208.28" smashed="yes" rot="MR0">
-<attribute name="NAME" x="190.5" y="215.9" size="1.778" layer="95" align="bottom-center"/>
-<attribute name="VALUE" x="190.5" y="198.12" size="1.778" layer="96" rot="MR0" align="bottom-center"/>
 </instance>
 <instance part="K1" gate="1" x="147.32" y="208.28" smashed="yes">
 <attribute name="VALUE" x="147.32" y="210.82" size="1.778" layer="96" align="bottom-center"/>
@@ -33112,9 +33023,9 @@ CA 95125 (408)494-0330&lt;br&gt;
 <attribute name="NAME" x="135.6614" y="217.17" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="140.462" y="217.17" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="J2" gate="G$1" x="55.88" y="48.26" smashed="yes">
-<attribute name="VALUE" x="50.8" y="40.894" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="50.8" y="56.388" size="1.778" layer="95" font="vector"/>
+<instance part="J2" gate="G$1" x="45.72" y="48.26" smashed="yes">
+<attribute name="VALUE" x="40.64" y="40.894" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="40.64" y="56.388" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="J5" gate="G$1" x="91.44" y="15.24" smashed="yes">
 <attribute name="VALUE" x="86.36" y="5.334" size="1.778" layer="96" font="vector"/>
@@ -33123,6 +33034,10 @@ CA 95125 (408)494-0330&lt;br&gt;
 <instance part="J10" gate="J$1" x="121.92" y="68.58" smashed="yes">
 <attribute name="VALUE" x="121.92" y="60.96" size="1.778" layer="96" align="bottom-center"/>
 <attribute name="NAME" x="121.92" y="73.66" size="1.778" layer="95" align="bottom-center"/>
+</instance>
+<instance part="J4" gate="G$1" x="45.72" y="30.48" smashed="yes">
+<attribute name="VALUE" x="40.64" y="23.114" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="40.64" y="38.608" size="1.778" layer="95" font="vector"/>
 </instance>
 </instances>
 <busses>
@@ -33157,7 +33072,6 @@ CA 95125 (408)494-0330&lt;br&gt;
 <wire x1="241.3" y1="203.2" x2="241.3" y2="200.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="GND"/>
 <wire x1="200.66" y1="203.2" x2="203.2" y2="203.2" width="0.1524" layer="91"/>
 <pinref part="SUPPLY28" gate="GND" pin="GND"/>
 <wire x1="203.2" y1="203.2" x2="203.2" y2="200.66" width="0.1524" layer="91"/>
@@ -33231,7 +33145,7 @@ CA 95125 (408)494-0330&lt;br&gt;
 <segment>
 <label x="76.2" y="45.72" size="0.8128" layer="95" xref="yes"/>
 <pinref part="J2" gate="G$1" pin="1"/>
-<wire x1="76.2" y1="45.72" x2="60.96" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="45.72" x2="50.8" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="1"/>
@@ -33398,7 +33312,6 @@ CA 95125 (408)494-0330&lt;br&gt;
 <wire x1="281.94" y1="223.52" x2="292.1" y2="223.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="VDD"/>
 <wire x1="200.66" y1="213.36" x2="203.2" y2="213.36" width="0.1524" layer="91"/>
 <pinref part="SUPPLY18" gate="G$1" pin="VCC"/>
 <wire x1="203.2" y1="213.36" x2="203.2" y2="241.3" width="0.1524" layer="91"/>
@@ -33481,7 +33394,7 @@ CA 95125 (408)494-0330&lt;br&gt;
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="2"/>
-<wire x1="60.96" y1="48.26" x2="76.2" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="48.26" x2="76.2" y2="48.26" width="0.1524" layer="91"/>
 <label x="76.2" y="48.26" size="0.8128" layer="95" xref="yes"/>
 </segment>
 <segment>
@@ -33555,7 +33468,6 @@ CA 95125 (408)494-0330&lt;br&gt;
 <label x="340.36" y="127" size="0.8128" layer="95" rot="MR0" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="DQ"/>
 <wire x1="200.66" y1="208.28" x2="203.2" y2="208.28" width="0.1524" layer="91"/>
 <label x="203.2" y="208.28" size="0.8128" layer="95" xref="yes"/>
 </segment>
@@ -33959,9 +33871,14 @@ CA 95125 (408)494-0330&lt;br&gt;
 <label x="370.84" y="137.16" size="0.8128" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="60.96" y1="53.34" x2="76.2" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="53.34" x2="58.42" y2="53.34" width="0.1524" layer="91"/>
 <label x="76.2" y="53.34" size="0.8128" layer="95" xref="yes"/>
 <pinref part="J2" gate="G$1" pin="4"/>
+<pinref part="J4" gate="G$1" pin="4"/>
+<wire x1="58.42" y1="53.34" x2="76.2" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="35.56" x2="58.42" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="35.56" x2="58.42" y2="53.34" width="0.1524" layer="91"/>
+<junction x="58.42" y="53.34"/>
 </segment>
 <segment>
 <pinref part="SV3" gate="A" pin="4"/>
@@ -33976,9 +33893,14 @@ CA 95125 (408)494-0330&lt;br&gt;
 <label x="370.84" y="129.54" size="0.8128" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="60.96" y1="50.8" x2="76.2" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="50.8" x2="55.88" y2="50.8" width="0.1524" layer="91"/>
 <label x="76.2" y="50.8" size="0.8128" layer="95" xref="yes"/>
 <pinref part="J2" gate="G$1" pin="3"/>
+<pinref part="J4" gate="G$1" pin="3"/>
+<wire x1="55.88" y1="50.8" x2="76.2" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="33.02" x2="55.88" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="33.02" x2="55.88" y2="50.8" width="0.1524" layer="91"/>
+<junction x="55.88" y="50.8"/>
 </segment>
 <segment>
 <pinref part="SV3" gate="A" pin="2"/>
