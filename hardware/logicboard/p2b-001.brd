@@ -6,12 +6,12 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="2" display="yes" altdistance="50" altunitdist="mil" altunit="mil"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="2" display="yes" altdistance="50" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
@@ -754,13 +754,19 @@ MIDI OUT</text>
 <text x="1.5" y="73.175" size="1" layer="26" rot="MR90" align="center">SPI</text>
 <text x="3.5" y="34" size="1" layer="26" rot="MR90" align="center">GPIO</text>
 <text x="87" y="69" size="1" layer="26" rot="MR90" align="center">MKR</text>
-<rectangle x1="9.5" y1="30" x2="10" y2="33" layer="21"/>
 <text x="15" y="29" size="1" layer="25" align="center">V</text>
 <text x="11" y="29" size="1" layer="25" align="center">G</text>
 <text x="1" y="67.46" size="1" layer="25" rot="R90" align="center">1</text>
 <text x="1" y="66.19" size="1" layer="25" rot="R90" align="center">0</text>
 <text x="1" y="64.92" size="1" layer="25" rot="R90" align="center">N</text>
 <text x="1" y="63.65" size="1" layer="25" rot="R90" align="center">N</text>
+<wire x1="10" y1="30" x2="16" y2="30" width="0.15" layer="21" curve="-216.869898"/>
+<text x="13" y="25.5" size="1" layer="25" rot="R90" align="center-right">DS18B20+</text>
+<polygon width="0.15" layer="21">
+<vertex x="13" y="27"/>
+<vertex x="12.5" y="26"/>
+<vertex x="13.5" y="26"/>
+</polygon>
 </plain>
 <libraries>
 <library name="SparkFun-DiscreteSemi" urn="urn:adsk.eagle:library:514">
