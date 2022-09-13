@@ -32542,7 +32542,7 @@ CA 95125 (408)494-0330&lt;br&gt;
 <part name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_04" device="JST-PTH" package3d_urn="urn:adsk.eagle:package:38101/1" value="GPIO"/>
 <part name="J5" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_06" device="1.27MM" package3d_urn="urn:adsk.eagle:package:38131/1" value="SPI"/>
 <part name="J10" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_03" device="JST-PTH-VERT" package3d_urn="urn:adsk.eagle:package:38080/1" value="1-Wire"/>
-<part name="J50" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_04" device="1.27MM" package3d_urn="urn:adsk.eagle:package:38086/1"/>
+<part name="J20" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_04" device="1.27MM" package3d_urn="urn:adsk.eagle:package:38086/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -33035,7 +33035,7 @@ CA 95125 (408)494-0330&lt;br&gt;
 <attribute name="VALUE" x="121.92" y="60.96" size="1.778" layer="96" align="bottom-center"/>
 <attribute name="NAME" x="121.92" y="73.66" size="1.778" layer="95" align="bottom-center"/>
 </instance>
-<instance part="J50" gate="G$1" x="45.72" y="30.48" smashed="yes">
+<instance part="J20" gate="G$1" x="45.72" y="30.48" smashed="yes">
 <attribute name="VALUE" x="40.64" y="23.114" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="40.64" y="38.608" size="1.778" layer="95" font="vector"/>
 </instance>
@@ -33874,7 +33874,7 @@ CA 95125 (408)494-0330&lt;br&gt;
 <wire x1="50.8" y1="53.34" x2="58.42" y2="53.34" width="0.1524" layer="91"/>
 <label x="76.2" y="53.34" size="0.8128" layer="95" xref="yes"/>
 <pinref part="J2" gate="G$1" pin="4"/>
-<pinref part="J50" gate="G$1" pin="4"/>
+<pinref part="J20" gate="G$1" pin="4"/>
 <wire x1="58.42" y1="53.34" x2="76.2" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="35.56" x2="58.42" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="35.56" x2="58.42" y2="53.34" width="0.1524" layer="91"/>
@@ -33896,7 +33896,7 @@ CA 95125 (408)494-0330&lt;br&gt;
 <wire x1="50.8" y1="50.8" x2="55.88" y2="50.8" width="0.1524" layer="91"/>
 <label x="76.2" y="50.8" size="0.8128" layer="95" xref="yes"/>
 <pinref part="J2" gate="G$1" pin="3"/>
-<pinref part="J50" gate="G$1" pin="3"/>
+<pinref part="J20" gate="G$1" pin="3"/>
 <wire x1="55.88" y1="50.8" x2="76.2" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="33.02" x2="55.88" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="33.02" x2="55.88" y2="50.8" width="0.1524" layer="91"/>
